@@ -1,0 +1,16 @@
+# Variáveis de ambiente e segredos
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs e cache Python
+logs/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
