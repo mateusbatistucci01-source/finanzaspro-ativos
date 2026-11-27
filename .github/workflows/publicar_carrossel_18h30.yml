@@ -1,0 +1,117 @@
+name: Publicar Carrossel Instagram 18h30 (BRT)
+
+on:
+  schedule:
+    # Todo dia às 18h30 de Brasília (America/Sao_Paulo, UTC-3) = 21:30 UTC
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: 'ID específico do carrossel (opcional; vazio seleciona o próximo CAROUSEL PENDENTE)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Executar apenas simulação (--dry-run) sem publicar'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-carousel-18h30
+  cancel-in-progress: false
+
+jobs:
+  publicar_carrossel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Selecionar próximo CAROUSEL PENDENTE no historico_grupos.csv
+        id: select
+        env:
+          MANUAL_ID: ${{ github.event.inputs.post_id }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          GITHUB_REPO: ${{ github.event.repository.name }}
+          GITHUB_BRANCH: main
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import instagram_publisher as pub
+
+          csv_path = Path("historico_grupos.csv")
+          _, rows = pub.read_csv_rows(csv_path)
+          manual_id = (os.getenv("MANUAL_ID") or "").strip()
+          gh_user = os.getenv("GITHUB_USER", "mateusbatistucci01-source")
+          gh_repo = os.getenv("GITHUB_REPO", "finanzaspro-ativos")
+          gh_branch = os.getenv("GITHUB_BRANCH", "main")
+
+          selected = None
+          for row in rows:
+              if row.get("canal") != "instagram":
+                  continue
+              urls = pub.resolve_image_urls(row.get("imagem_url", ""), gh_user, gh_repo, gh_branch)
+              is_carousel = len(urls) > 1
+              if manual_id:
+                  if row.get("id") == manual_id:
+                      selected = row
+                      break
+              elif is_carousel and row.get("status") == "PENDENTE":
+                  selected = row
+                  break
+
+          out_file = os.environ["GITHUB_OUTPUT"]
+          with open(out_file, "a", encoding="utf-8") as f:
+              if selected:
+                  print(f"Selecionado: {selected['id']} | {selected.get('titulo', '')}")
+                  f.write(f"post_id={selected['id']}\n")
+                  f.write("found=true\n")
+              else:
+                  print("Nenhum CAROUSEL com status=PENDENTE encontrado em historico_grupos.csv.")
+                  f.write("post_id=\n")
+                  f.write("found=false\n")
+          PY
+
+      - name: Publicar carrossel via Meta Graph API
+        if: steps.select.outputs.found == 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_GRAPH_API_VERSION: v22.0
+          GITHUB_USER: ${{ github.repository_owner }}
+          GITHUB_REPO: ${{ github.event.repository.name }}
+          GITHUB_BRANCH: main
+          NEXT_ID: ${{ steps.select.outputs.post_id }}
+          IS_DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          if [ "$IS_DRY_RUN" = "true" ]; then
+            python instagram_publisher.py --dry-run --id "$NEXT_ID"
+          else
+            python instagram_publisher.py --publish --id "$NEXT_ID"
+          fi
+
+      - name: Atualizar status para PUBLICADO no repositório
+        if: steps.select.outputs.found == 'true' && github.event.inputs.dry_run != 'true'
+        env:
+          NEXT_ID: ${{ steps.select.outputs.post_id }}
+        run: |
+          if git diff --quiet historico_grupos.csv; then
+            echo "Nenhuma alteração em historico_grupos.csv para commitar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historico_grupos.csv
+          git commit -m "chore(instagram): marca ${NEXT_ID} como PUBLICADO (carrossel 18h30)"
+          git push origin main

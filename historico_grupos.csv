@@ -1,6 +1,6 @@
 id,data_hora,canal,angulo,titulo,copy,imagem_url,link_hotmart,status
-FP-001,,pinterest,gastos hormiga,"El 18 del mes sin saldo: detecta tus gastos hormiga en 5 minutos","No siempre es un problema de ingresos. Un café diario, dos pedidos de comida y tres suscripciones que casi no usas pueden restarte más de 150 dólares al mes sin ninguna alerta. Con FinanzasPro en Google Sheets registras cada movimiento en segundos y ves al instante qué categoría se está vaciando primero. Mira cómo funciona el planificador en el enlace. #finanzaspersonales #gastoshormiga #ahorro #presupuesto",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_03_mateo.png,https://go.hotmart.com/D108359728X,PENDENTE
-FP-002,,facebook_page,regra 50/30/20,"La regla 50/30/20 no falla: falla calcularla de memoria","La regla 50/30/20 no falla. Lo que falla es intentar llevarla en la cabeza.
+FP-001,,pinterest,gastos hormiga,El 18 del mes sin saldo: detecta tus gastos hormiga en 5 minutos,"No siempre es un problema de ingresos. Un café diario, dos pedidos de comida y tres suscripciones que casi no usas pueden restarte más de 150 dólares al mes sin ninguna alerta. Con FinanzasPro en Google Sheets registras cada movimiento en segundos y ves al instante qué categoría se está vaciando primero. Mira cómo funciona el planificador en el enlace. #finanzaspersonales #gastoshormiga #ahorro #presupuesto",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_03_mateo.png,https://go.hotmart.com/D108359728X,PENDENTE
+FP-002,,facebook_page,regra 50/30/20,La regla 50/30/20 no falla: falla calcularla de memoria,"La regla 50/30/20 no falla. Lo que falla es intentar llevarla en la cabeza.
 
 La mayoría divide su sueldo ""a ojo"": paga lo urgente, gasta durante el mes y promete ahorrar lo que sobre. El problema es que, sin un límite visible por categoría, casi nunca sobra.
 
@@ -9,7 +9,7 @@ En FinanzasPro la pestaña de Presupuesto compara tu objetivo (50% necesidades, 
 Funciona directo en tu propia cuenta de Google Sheets, sin conocimientos previos ni fórmulas complicadas. No es falta de ingresos: es falta de claridad.
 
 Revisa cómo funciona por dentro y elige tu plan aquí:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_01_planilha.png,https://finanzasprooficial.vercel.app/?utm_source=organico_make,PENDENTE
-FP-003,,telegram_grupos,controle de dívidas,"¿Pagas deudas todos los meses y el saldo casi no baja?","Cuando tienes dos o tres cuotas distintas en el mismo mes, el error más costoso es repartir el dinero sin orden ni fecha estimada de salida.
+FP-003,,telegram_grupos,controle de dívidas,¿Pagas deudas todos los meses y el saldo casi no baja?,"Cuando tienes dos o tres cuotas distintas en el mismo mes, el error más costoso es repartir el dinero sin orden ni fecha estimada de salida.
 
 Un ajuste simple cambia la situación:
 🔹 Anota saldo total, cuota mínima y fecha de vencimiento en una sola tabla.
@@ -17,7 +17,7 @@ Un ajuste simple cambia la situación:
 🔹 Mide en cuántos meses reales quedas libre.
 
 Si prefieres no crearlo desde cero, aquí puedes ver el planificador listo en Google Sheets que calcula esto y te alerta antes de cada vencimiento:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_02_sistema.png,https://go.hotmart.com/D108359728X,PENDENTE
-FP-004,,pinterest,fundo de emergência,"Si un imprevisto hoy descuadra tu mes, así empiezas tu reserva","Una reparación inesperada o una consulta médica no deberían obligarte a usar la tarjeta de crédito. Construir un fondo de emergencia empieza por saber cuánto puedes separar con realismo cada mes y sostener una rutina simple sin abandonar en la semana dos. Conoce el ecosistema FinanzasPro en Google Sheets en el enlace. #fondodeemergencia #ahorrointeligente #finanzaspersonales",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_04_oferta.png,https://go.hotmart.com/D108359728X,PENDENTE
+FP-004,,pinterest,fundo de emergência,"Si un imprevisto hoy descuadra tu mes, así empiezas tu reserva",Una reparación inesperada o una consulta médica no deberían obligarte a usar la tarjeta de crédito. Construir un fondo de emergencia empieza por saber cuánto puedes separar con realismo cada mes y sostener una rutina simple sin abandonar en la semana dos. Conoce el ecosistema FinanzasPro en Google Sheets en el enlace. #fondodeemergencia #ahorrointeligente #finanzaspersonales,https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_04_oferta.png,https://go.hotmart.com/D108359728X,PENDENTE
 FP-005,,facebook_page,planilha dashboard,"Notas sueltas, capturas y hojas a medias: el caos silencioso","Si anotas gastos en un chat contigo mismo, guardas capturas en el teléfono y abres una hoja distinta cada mes, es normal que nunca tengas el panorama claro.
 
 Ordenar tu dinero no exige ser experto en finanzas ni diseñar tablas complejas. Solo necesitas abrir un solo lugar donde todo se conecte solo.
@@ -31,15 +31,15 @@ En el panel de Visión General de FinanzasPro ves al instante:
 Haces una copia privada en tu propia cuenta de Google Sheets y tus datos quedan solo contigo.
 
 Conoce el planificador por dentro y compara los planes aquí:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_01_planilha.png,https://finanzasprooficial.vercel.app/?utm_source=organico_make,PENDENTE
-FP-006,,telegram_grupos,gastos hormiga,"La cuenta rápida de los 4 dólares diarios que casi nadie hace","Hablemos con números simples. Un café fuera de casa, un pedido de comida o una suscripción olvidada parecen inofensivos cuando cuestan 4 dólares al día.
+FP-006,,telegram_grupos,gastos hormiga,La cuenta rápida de los 4 dólares diarios que casi nadie hace,"Hablemos con números simples. Un café fuera de casa, un pedido de comida o una suscripción olvidada parecen inofensivos cuando cuestan 4 dólares al día.
 
 Pero 4 dólares diarios son 120 al mes y 1.440 al año que salen en silencio.
 
 El ajuste no es dejar de disfrutar, sino poner un tope mensual a ""Ocio"" y ""Compras y suscripciones"" para ver el porcentaje usado antes de pasarte.
 
 Para quienes prefieren tener ese control de límites ya configurado en Google Sheets (sin programar fórmulas), les comparto el enlace del planificador:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_03_mateo.png,https://go.hotmart.com/D108359728X,PENDENTE
-FP-007,,pinterest,regra 50/30/20,"¿Por qué nunca sobra para ahorrar? Prueba el orden 50/30/20 real","Esperar al día 30 para guardar ""lo que quede"" casi siempre termina en cero. Al asignar primero tu 50% a necesidades, 30% a deseos y 20% a ahorro el día que cobras, cada parte de tu sueldo tiene un destino claro antes de gastarse. Mira el planificador automático en Google Sheets que compara tu objetivo frente a tu gasto real por categoría. #regla503020 #presupuestomensual #ahorro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_04_oferta.png,https://go.hotmart.com/D108359728X,PENDENTE
-FP-008,,facebook_page,controle de dívidas,"Evitar abrir tu resumen bancario sale más caro que la deuda","Postergar la revisión de tus deudas da alivio durante diez minutos, pero te cobra intereses todo el año.
+FP-007,,pinterest,regra 50/30/20,¿Por qué nunca sobra para ahorrar? Prueba el orden 50/30/20 real,"Esperar al día 30 para guardar ""lo que quede"" casi siempre termina en cero. Al asignar primero tu 50% a necesidades, 30% a deseos y 20% a ahorro el día que cobras, cada parte de tu sueldo tiene un destino claro antes de gastarse. Mira el planificador automático en Google Sheets que compara tu objetivo frente a tu gasto real por categoría. #regla503020 #presupuestomensual #ahorro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_04_oferta.png,https://go.hotmart.com/D108359728X,PENDENTE
+FP-008,,facebook_page,controle de dívidas,Evitar abrir tu resumen bancario sale más caro que la deuda,"Postergar la revisión de tus deudas da alivio durante diez minutos, pero te cobra intereses todo el año.
 
 Muchas personas no están estancadas porque ganen poco, sino porque pagan cuotas dispersas sin saber cuál atacar primero ni qué fecha vence la próxima semana.
 
@@ -48,7 +48,7 @@ Cuando reúnes todas tus deudas en un mismo panel, la incertidumbre baja porque 
 FinanzasPro reúne ingresos, gastos, deudas, pagos fijos y metas en un planificador listo para Google Sheets, sin conocimientos previos.
 
 Ve todas las secciones y elige tu plan aquí:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_02_sistema.png,https://finanzasprooficial.vercel.app/?utm_source=organico_make,PENDENTE
-FP-009,,telegram_grupos,fundo de emergência,"No necesitas ganar el doble para construir tu fondo de emergencia","Mucha gente espera un aumento de sueldo para empezar su reserva de emergencia. El problema es que cuando suben los ingresos, los gastos suelen subir al mismo ritmo si no hay sistema.
+FP-009,,telegram_grupos,fundo de emergência,No necesitas ganar el doble para construir tu fondo de emergencia,"Mucha gente espera un aumento de sueldo para empezar su reserva de emergencia. El problema es que cuando suben los ingresos, los gastos suelen subir al mismo ritmo si no hay sistema.
 
 Lo que funciona mejor es empezar pequeño, pero visible:
 🔹 Define una meta concreta con monto y fecha (por ejemplo, cubrir tu primer mes de gastos básicos).
@@ -57,7 +57,7 @@ Lo que funciona mejor es empezar pequeño, pero visible:
 
 Si buscas una plantilla en Google Sheets que ya trae metas y resumen anual automático, aquí está el acceso:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_04_oferta.png,https://go.hotmart.com/D108359728X,PENDENTE
 FP-010,,pinterest,planilha dashboard,"Controla sueldo, freelance y extras en Google Sheets sin fórmulas","¿Te propusiste ordenar tus finanzas el domingo y cerraste la hoja de cálculo en dos minutos porque no sabías crear las fórmulas? FinanzasPro ya viene listo: solo registras tus ingresos (salario, negocio, freelance o extras) y tus gastos en tablas simples, y los porcentajes, totales y gráficos se actualizan solos en tu cuenta de Google. Mira el planificador aquí. #googlesheets #finanzaspro #controlfinanciero",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_01_planilha.png,https://go.hotmart.com/D108359728X,PENDENTE
-FP-011,,facebook_page,gastos hormiga,"Hay 2 tipos de personas el día que reciben su sueldo","Hay 2 tipos de personas el día que reciben su sueldo.
+FP-011,,facebook_page,gastos hormiga,Hay 2 tipos de personas el día que reciben su sueldo,"Hay 2 tipos de personas el día que reciben su sueldo.
 
 Tipo 1: paga lo urgente, compra pequeñas cosas ""porque se lo merece"" y a mitad de mes abre la app del banco preguntándose cómo desapareció el dinero.
 
@@ -68,7 +68,7 @@ La diferencia casi nunca está en cuánto ganan, sino en si tienen un sistema do
 Con FinanzasPro organizas ingresos, gastos, presupuesto 50/30/20, deudas y objetivos en un solo panel en Google Sheets, desde computadora o teléfono.
 
 Descubre cómo funciona y mira los planes disponibles aquí:",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_anuncios/anuncio_03_mateo.png,https://finanzasprooficial.vercel.app/?utm_source=organico_make,PENDENTE
-FP-012,,telegram_grupos,regra 50/30/20,"Para quienes sienten culpa cada vez que salen a comer o compran algo","Tener orden financiero no significa vivir contando cada centavo con culpa. Al contrario: la culpa aparece cuando gastas sin saber si ese dinero ya estaba comprometido para un pago fijo o una deuda.
+FP-012,,telegram_grupos,regra 50/30/20,Para quienes sienten culpa cada vez que salen a comer o compran algo,"Tener orden financiero no significa vivir contando cada centavo con culpa. Al contrario: la culpa aparece cuando gastas sin saber si ese dinero ya estaba comprometido para un pago fijo o una deuda.
 
 Con la regla 50/30/20 separas un bloque real (hasta el 30%) para gustos y ocio. Si está dentro de tu límite del mes, lo disfrutas tranquilo porque tus necesidades y tu ahorro ya están cubiertos.
 
@@ -88,7 +88,7 @@ Haces una copia privada en tu propia cuenta de Google Sheets y lo actualizas des
 Comenta PLANILLA (o QUIERO) aquí abajo y te envío el acceso directo por mensaje privado 👇
 
 #finanzaspersonales #googlesheets #controlfinanciero #ahorroyorden #presupuestomensual #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/anuncio_01_planilha.jpg,https://go.hotmart.com/D108359728X,PENDENTE
-FP-014,,instagram,controle de dívidas,"Pagar solo el mínimo de la tarjeta no te da aire: te alquila el problema un mes más","Pagar el mínimo de la tarjeta te da alivio cinco minutos, pero al mes siguiente la cuota vuelve más pesada y sientes que trabajas solo para cubrir intereses.
+FP-014,,instagram,controle de dívidas,Pagar solo el mínimo de la tarjeta no te da aire: te alquila el problema un mes más,"Pagar el mínimo de la tarjeta te da alivio cinco minutos, pero al mes siguiente la cuota vuelve más pesada y sientes que trabajas solo para cubrir intereses.
 
 El problema no es falta de esfuerzo. Es intentar salir de varias deudas sin un orden claro de ataque.
 
@@ -102,7 +102,7 @@ Funciona directo en tu cuenta privada de Google, sin conocimientos previos ni ho
 Comenta METODO (o SISTEMA) aquí abajo y te envío el acceso directo por mensaje privado 👇
 
 #controldedeudas #finanzaspersonales #tarjetadecredito #libertadfinanciera #googlesheets #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/anuncio_02_sistema.jpg,https://go.hotmart.com/D108359728X,PENDENTE
-FP-015,,instagram,gastos hormiga,"Haz esta prueba de 3 minutos con los últimos 7 días de tu estado de cuenta","Toma los últimos siete días de tu estado de cuenta y suma solo tres cosas: cafés fuera, pedidos de comida y cobros automáticos pequeños.
+FP-015,,instagram,gastos hormiga,Haz esta prueba de 3 minutos con los últimos 7 días de tu estado de cuenta,"Toma los últimos siete días de tu estado de cuenta y suma solo tres cosas: cafés fuera, pedidos de comida y cobros automáticos pequeños.
 
 El resultado suele sorprender más que una compra grande, porque esos movimientos no duelen cuando pasan... hasta que cierras el mes.
 
@@ -113,7 +113,7 @@ En FinanzasPro registras cada gasto en segundos y el panel te muestra qué porce
 Comenta CONTROL (o PLANILLA) aquí abajo y te envío el acceso directo por mensaje privado 👇
 
 #gastoshormiga #ahorrointeligente #educacionfinanciera #presupuestopersonal #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/anuncio_03_mateo.jpg,https://go.hotmart.com/D108359728X,PENDENTE
-FP-016,,instagram,fundo de emergência,"La tranquilidad de que se rompa el refrigerador y no tener que pasar la tarjeta","Imagina que mañana surge un arreglo en casa o una consulta médica urgente y, por primera vez en años, no necesitas endeudarte ni desarmar el resto del mes.
+FP-016,,instagram,fundo de emergência,La tranquilidad de que se rompa el refrigerador y no tener que pasar la tarjeta,"Imagina que mañana surge un arreglo en casa o una consulta médica urgente y, por primera vez en años, no necesitas endeudarte ni desarmar el resto del mes.
 
 Eso no pasa por suerte ni por ganar el doble. Pasa cuando tu reserva tiene nombre, monto y fecha dentro de un sistema real.
 
@@ -127,7 +127,7 @@ Haces una copia en tu propia cuenta de Google Sheets y empiezas hoy mismo, sin s
 Comenta SISTEMA (o QUIERO) aquí abajo y te envío el acceso directo por mensaje privado 👇
 
 #fondodeemergencia #ahorro #metasfinancieras #finanzaspersonales #googlesheets #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/anuncio_04_oferta.jpg,https://go.hotmart.com/D108359728X,PENDENTE
-FP-017,,instagram,gastos hormiga,"Pierdes $1.440 al año sin hacer una sola compra grande (carrusel 6 slides)","No es falta de sueldo. Es vivir sin un panel que te muestre cuánto puedes gastar hoy sin tocar tus pagos fijos.
+FP-017,2026-11-27 00:25:43,instagram,gastos hormiga,Pierdes $1.440 al año sin hacer una sola compra grande (carrusel 6 slides),"No es falta de sueldo. Es vivir sin un panel que te muestre cuánto puedes gastar hoy sin tocar tus pagos fijos.
 
 Cuatro dólares al día en pequeños movimientos parecen inofensivos cuando ocurren, pero al cerrar el año suman $1.440 que desaparecieron en silencio.
 
@@ -139,4 +139,69 @@ En este carrusel te muestro paso a paso:
 
 Comenta PLANILLA (o QUIERO) aquí abajo y te envío el acceso directo por mensaje privado ahora mismo 👇
 
-#finanzaspersonales #gastoshormiga #regla503020 #googlesheets #controlfinanciero #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_06.jpg,https://go.hotmart.com/D108359728X,PENDENTE
+#finanzaspersonales #gastoshormiga #regla503020 #googlesheets #controlfinanciero #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_01/slide_06.jpg,https://go.hotmart.com/D108359728X,PUBLICADO
+FP-018,,instagram,controle de dívidas,Por qué pagar varias cuotas a la vez te deja atrapado todo el año,"Pagar un poco en cada tarjeta y un poco en cada cuota parece responsable, pero es la forma más lenta y costosa de salir de deudas.
+
+Cuando repartes tu dinero extra entre tres frentes al mismo tiempo, ninguna deuda baja de verdad y los intereses siguen comiéndose tu sueldo mes tras mes.
+
+En este carrusel te muestro:
+🔹 La diferencia real entre pagar sin orden y concentrar el ataque en una sola cuota
+🔹 Por qué ignorar tus fechas de vencimiento multiplica el estrés en casa
+🔹 Cómo funciona el orden bola de nieve vs. avalancha paso a paso
+🔹 Cómo se ve tu deuda total, tus pagos fijos y tu avance dentro de FinanzasPro en Google Sheets (sin fórmulas y 100% privado)
+
+Comenta METODO (o SISTEMA) aquí abajo y te envío el acceso directo por mensaje privado 👇
+
+#controldedeudas #finanzaspersonales #tarjetadecredito #presupuestomensual #googlesheets #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_02/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_02/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_02/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_02/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_02/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_02/slide_06.jpg,https://go.hotmart.com/D108359728X,PENDENTE
+FP-019,,instagram,regra 50/30/20,Los 3 bloques que ordenan cualquier sueldo en 10 minutos al mes,"Si prometes ahorrar ""lo que sobre"" el día 30, ya sabes cómo termina el mes: casi nunca sobra nada.
+
+Ordenar tu sueldo no requiere vivir restringido ni llenar tablas imposibles. Solo necesitas dividir tu ingreso el día 1 en 3 bloques visibles antes de gastar.
+
+En este carrusel revisamos:
+🔹 Qué cambia cuando pasas de gastar ""a ojo"" a usar los 3 bloques 50/30/20
+🔹 Por qué las dietas financieras extremas te hacen abandonar en 12 días
+🔹 Cómo funciona el bloque del 30% para disfrutar sin culpa
+🔹 Cómo FinanzasPro compara tu objetivo 50/30/20 contra tu gasto real en Google Sheets automáticamente
+
+Comenta CONTROL (o PLANILLA) aquí abajo y te envío el acceso directo por mensaje privado 👇
+
+#regla503020 #presupuestopersonal #finanzaspersonales #ahorro #googlesheets #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_03/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_03/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_03/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_03/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_03/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_03/slide_06.jpg,https://go.hotmart.com/D108359728X,PENDENTE
+FP-020,,instagram,gastos hormiga,Tu tarjeta no falla por compras grandes: falla por los cobros que no duelen,"Nadie se sorprende cuando compra un boleto de avión o un televisor. Lo que desarma tu mes son los cobros de $3, $6 o $9 que pagas tocando el teléfono sin mirarlo.
+
+No duelen cuando pasan. Duelen el día 22 cuando revisas el saldo y sientes que el dinero se evaporó.
+
+En este carrusel te muestro:
+🔹 Cuánto suman en silencio 3 pequeños hábitos contactless al cerrar el año
+🔹 Por qué prohibirte el café no resuelve el problema de fondo
+🔹 El sistema de topes mensuales por categoría que frena la fuga sin vivir con culpa
+🔹 Cómo se ven tus gastos por categoría dentro de FinanzasPro en Google Sheets
+
+Comenta PLANILLA (o CONTROL) aquí abajo y te envío el acceso directo por mensaje privado 👇
+
+#gastoshormiga #finanzaspersonales #ahorrointeligente #presupuesto #googlesheets #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_04/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_04/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_04/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_04/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_04/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_04/slide_06.jpg,https://go.hotmart.com/D108359728X,PENDENTE
+FP-021,,instagram,fundo de emergência,Cómo armar tu primer mes de respaldo sin esperar un aumento de sueldo,"Mucha gente pospone su fondo de emergencia pensando ""cuando gane más, empiezo"". El problema es que sin sistema, cada aumento de sueldo se convierte en más gastos fijos.
+
+La tranquilidad financiera empieza cuando un imprevisto médico o una reparación en casa deja de empujarte a la tarjeta de crédito.
+
+En este carrusel ves:
+🔹 Qué pasa con un mismo imprevisto de $350 con y sin reserva
+🔹 Los 3 mitos que te impiden empezar tu fondo hoy
+🔹 Cómo fijar una meta con monto, fecha y seguimiento de 12 meses
+🔹 Cómo se ve tu avance real dentro de FinanzasPro en Google Sheets
+
+Comenta SISTEMA (o QUIERO) aquí abajo y te envío el acceso directo por mensaje privado 👇
+
+#fondodeemergencia #ahorro #metasfinancieras #finanzaspersonales #googlesheets #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_05/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_05/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_05/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_05/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_05/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_05/slide_06.jpg,https://go.hotmart.com/D108359728X,PENDENTE
+FP-022,,instagram,planilha dashboard,Abrir la app del banco cada mañana no te da control financiero,"Mirar el saldo de tu cuenta bancaria a primera hora solo te dice cuánto hay hoy, pero esconde lo que ya debes pagar el viernes.
+
+Cuando tus ingresos, tarjetas, pagos fijos y metas viven en lugares separados, pasas el mes haciendo cuentas mentales que siempre fallan.
+
+En este carrusel te muestro:
+🔹 La diferencia entre mirar tu saldo bancario y conocer tu saldo libre real
+🔹 Por qué abrir hojas en blanco los domingos te devuelve al caos en 5 minutos
+🔹 Cómo conectar toda tu vida financiera en un solo panel automático
+🔹 La vista real de Visión General en FinanzasPro para Google Sheets (copia privada y sin fórmulas)
+
+Comenta QUIERO (o PLANILLA) aquí abajo y te envío el acceso directo por mensaje privado 👇
+
+#controlfinanciero #googlesheets #finanzaspersonales #ordenfinanciero #presupuestomensual #finanzaspro",https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_06/slide_01.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_06/slide_02.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_06/slide_03.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_06/slide_04.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_06/slide_05.jpg;https://raw.githubusercontent.com/mateusbatistucci01-source/finanzaspro-ativos/main/ativos_instagram/carrossel_06/slide_06.jpg,https://go.hotmart.com/D108359728X,PENDENTE

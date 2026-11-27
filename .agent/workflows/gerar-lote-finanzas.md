@@ -102,31 +102,32 @@ Colunas obrigatórias (9 colunas exatas):
 
 ---
 
-## Passo 6 — Fluxo de Carrossel Instagram (6 Slides `1080x1350` via Paper MCP)
+## Passo 6 — Fábrica Automática de Carrosséis Instagram (6 Slides `1080x1350` via `instagram-carousel` + `gerador_carrosseis.py`)
 
 ### Grade Diária Oficial do Instagram (`@mateorivas_finanzas` — Horário de Brasília / `America/Sao_Paulo`)
 - **14h30 — Reel (Topo de Funil):** descoberta, retenção rápida e alcance orgânico frio.
-- **18h30 — Carrossel 6 Slides (Meio de Funil):** aprofundamento analítico, prova visual da planilha FinanzasPro e conversão para DM via gatilho de comentário (`PLANILLA`, `SISTEMA`, `CONTROL`, `METODO` ou `QUIERO`).
+- **18h30 — Carrossel 6 Slides (Meio de Funil):** aprofundamento analítico, prova visual real da planilha `Visión General` e conversão para DM via gatilho de comentário (`PLANILLA`, `CONTROL`, `SISTEMA`, `METODO` ou `QUIERO`). Publicação automática diária via GitHub Actions (`.github/workflows/publicar_carrossel_18h30.yml`, cron `30 21 * * *` UTC).
 
-Sempre que o usuário solicitar um **carrossel para o Instagram** (`@mateorivas_finanzas`), execute este pipeline integrado ao **Paper Desktop MCP** (`file/01M8B6M4S34PMQ461SSV4CSX8H` em `http://127.0.0.1:29979/mcp`):
+Sempre que o usuário solicitar um **carrossel ou lote de carrosséis para o Instagram** (`@mateorivas_finanzas`), siga integralmente a skill `.agents/skills/instagram-carousel/SKILL.md` e o pipeline em lote abaixo:
 
-1. **Sistema Modular de 3 Variantes Cromáticas (Tokens no Paper — ZERO tons de verde):**
-   Alterne entre as variantes oficiais nos lotes para manter variedade visual sem sair da marca:
-   - **Variante A — Editorial Dark (`Template 01 — Editorial Dark (Mateo)`):** fundo `#0A192F` (`--fp-dark-bg`), cards `#112240` (`--fp-dark-surface`) com borda `1px solid rgba(59, 130, 246, 0.25)`, destaque `#3B82F6` (`--fp-dark-accent`), texto `#F8FAFC` (`--fp-dark-text`). Ideal para carrosséis com foto do Mateo Rivas.
-   - **Variante B — Clean Fintech Light (`Template 02 — Clean Fintech Light (Bento)`):** fundo `#F8FAFC` (`--fp-light-bg`), cards `#FFFFFF` (`--fp-light-surface`) com borda `#E2E8F0` (`--fp-light-border`), títulos `#0A192F` (`--fp-light-ink`), destaque `#2563EB` (`--fp-light-accent`). Ideal para carrosséis educativos, bento grids e gráficos.
-   - **Variante C — High-Contrast Alert (Tokens `--fp-alert-*`):** fundo `#060D1A` (`--fp-alert-bg`), cards `#0F172A` (`--fp-alert-surface`), destaques `#38BDF8` (`--fp-alert-cyan`) e alertas numéricos `#F59E0B` (`--fp-alert-amber`). Ideal para choques sobre perda de dinheiro e dívidas.
-   - **Acabamento obrigatório:** grid sutil de fundo (`64px`), tipografia `72px`–`96px` bold/extrabold com `tabular-nums`, badge de categoria no topo (`ANÁLISIS FINANZASPRO • 01/06`), cards bento/glassmorphism e indicador de deslize elegante no rodapé.
-2. **Onde Substituir os Slots de Imagem:**
-   - **Slot Foto Mateo Rivas (Slide 1 do Template 01):** substituir a imagem mascarada com vinheta inferior por fotos locais salvas em `ativos_anuncios/banco_mateo/`.
-   - **Slot Mockup da Planilha (Slide 5 de ambos os templates):** substituir a tela dentro da janela/bezel pela captura real correspondente em `./ativos/` (`demonstração planilha - vision geral.jpeg`, `presupuesto.jpeg`, `ingresos.jpeg` ou `resumen anual.jpeg`).
-3. **Engenharia de Retenção — Roteiro Obrigatório de 6 Slides (Espanhol Neutro, tom analítico do Mateo Rivas):**
-   - **Slide 1 (Capa / Gancho de Choque + Foto/Visual):** promessa específica ou erro financeiro caro + gatilho de curiosidade no rodapé (*"La mayoría comete el error del slide 3 →"* ou *"Casi nadie detecta la fuga del slide 4 →"*).
-   - **Slide 2 (O Diagnóstico / Espelho):** números reais em dólares (antes vs. depois ou cronologia do mês) gerando identificação imediata.
-   - **Slide 3 (A Quebra de Crença):** por que anotar tudo à mão, usar apps cheios de menus ou abrir planilhas em branco falha na semana 2.
-   - **Slide 4 (O Mecanismo / Passo a Passo Visual):** gráfico nativo ou bento grid limpo mostrando a lógica na prática (50/30/20 ou corte de vazamentos).
-   - **Slide 5 (A Prova Tangível — Mockup da Planilha):** print real da Planilha FinanzasPro dentro da moldura com callouts apontando para os resultados automáticos.
-   - **Slide 6 (CTA de Conversão Irresistível):** destaque visual gigante para a palavra-chave do post (`PLANILLA`, `SISTEMA`, `CONTROL`, `METODO` ou `QUIERO`) + fechamento direto: *"Comenta **[PALABRA_CLAVE]** y te envío el acceso directo por DM ahora mismo 👇"*.
-4. **Montagem, Exportação e Fila:**
-   - Monte ou duplique os 6 slides no Paper via MCP (`create_artboard` / `write_html`) em `1080x1350`.
-   - Exporte os 6 slides em `ativos_anuncios/carrossel_XX/slide_01.png` ... `slide_06.png` (ou direto em JPEG) e rode `python instagram_publisher.py --prepare-images` para gerar os JPEGs sRGB `1080x1350` (`<= 8 MB`) em `ativos_instagram/carrossel_XX/`.
-   - Adicione a linha na fila de `historico_grupos.csv` (`canal=instagram`, `imagem_url` com as 6 URLs raw do GitHub separadas por `;`, `link_hotmart=https://go.hotmart.com/D108359728X`, `status=PENDENTE`) e valide com `python instagram_publisher.py --dry-run`.
+1. **Identidade Visual Travada (ZERO Verde):**
+   - Paleta exclusiva: `#0A192F` (fundo e overlays escuros de alto contraste), `#112240` (cards bento e moldura da planilha), `#3B82F6` (destaque principal, barra de progresso, números e botão CTA), `#FFFFFF` (títulos) e `#E2E8F0` (subtítulos/corpo).
+   - **Proibido qualquer cor ou emoji verde** em HTML, CSS, slides ou legendas.
+2. **Integração Obrigatória com `assets/biblioteca_visual/` + Planilha Real:**
+   - Alterne as **10 fotos editoriais 4:5** salvas em `assets/biblioteca_visual/` entre capas e slides de desenvolvimento (5 fotos do Mateo Rivas: `mateo_01`..`mateo_05`; 5 cenas humanas/metáforas: `cena_casal`, `cena_hormiga`, `cena_cartao`, `cena_celular`, `cena_horizonte`), sempre com overlay escuro `#0A192F` para leitura perfeita.
+   - **Slide 5 obrigatório (`type: "proof"`):** exibe sempre o print real da aba **`Visión General`** (`ativos/demonstração planilha - vision geral.jpeg`) dentro de moldura premium `#112240` com 3 callouts verificados.
+3. **Engenharia de Retenção — Roteiro Obrigatório de 6 Slides (Espanhol Neutro / *tuteo*, tom analítico do Mateo Rivas):**
+   - **Slide 1 (`cover`):** foto full-bleed (alternando Mateo e cenas/metáforas) + gancho de choque + `Desliza →`.
+   - **Slide 2 (`diagnostic`):** espelho numérico comparativo (antes vs. depois) + `Desliza →`.
+   - **Slide 3 (`belief_shift`):** 3 motivos claros por que métodos manuais/notas soltas falham na semana 2 + `Desliza →`.
+   - **Slide 4 (`mechanism`):** barra visual segmentada em tons de azul + 3 passos práticos em bento grid + `Desliza →`.
+   - **Slide 5 (`proof`):** prova tangível com o print real de **`Visión General`** + 3 callouts + `Desliza →`.
+   - **Slide 6 (`cta`):** destaque gigante para uma das 5 palavras-chave oficiais (`PLANILLA`, `CONTROL`, `SISTEMA`, `METODO` ou `QUIERO`) + fechamento direto de DM (**sem** `Desliza →`).
+4. **Especificação JSON, Renderização em Lote e Publicação:**
+   - Salve a especificação do lote em `lotes/lote_carrosseis_<ids>.json` e renderize todos os slides automaticamente com:
+     ```bash
+     python gerador_carrosseis.py --spec lotes/lote_carrosseis_<ids>.json
+     ```
+   - O renderizador gera diretamente `ativos_instagram/carrossel_XX/slide_01.jpg` a `slide_06.jpg` (`1080x1350`, JPEG sRGB, `<= 8 MB`) e valida ausência de verde, `Desliza →` nos slides 1–5 e CTA válido no slide 6.
+   - Faça append das novas linhas em `historico_grupos.csv` (`canal=instagram`, `imagem_url` com as 6 URLs raw do GitHub separadas por `;`, `link_hotmart=https://go.hotmart.com/D108359728X`, `status=PENDENTE`).
+   - Faça `git add` / `commit` / `push` seguro (sempre mantendo `.env` fora) e valide a fila com `python instagram_publisher.py --dry-run --id <ID>`.

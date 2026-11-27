@@ -1,0 +1,667 @@
+{
+  "lote": "FP-018 a FP-022",
+  "marca": "FinanzasPro",
+  "handle": "@mateorivas_finanzas",
+  "carrosseis": [
+    {
+      "id": "FP-018",
+      "folder": "carrossel_02",
+      "angulo": "controle de dívidas",
+      "titulo": "Por qué pagar varias cuotas a la vez te deja atrapado todo el año",
+      "cta_keyword": "METODO",
+      "cta_secondary": "SISTEMA",
+      "copy": "Pagar un poco en cada tarjeta y un poco en cada cuota parece responsable, pero es la forma más lenta y costosa de salir de deudas.\n\nCuando repartes tu dinero extra entre tres frentes al mismo tiempo, ninguna deuda baja de verdad y los intereses siguen comiéndose tu sueldo mes tras mes.\n\nEn este carrusel te muestro:\n🔹 La diferencia real entre pagar sin orden y concentrar el ataque en una sola cuota\n🔹 Por qué ignorar tus fechas de vencimiento multiplica el estrés en casa\n🔹 Cómo funciona el orden bola de nieve vs. avalancha paso a paso\n🔹 Cómo se ve tu deuda total, tus pagos fijos y tu avance dentro de FinanzasPro en Google Sheets (sin fórmulas y 100% privado)\n\nComenta METODO (o SISTEMA) aquí abajo y te envío el acceso directo por mensaje privado 👇\n\n#controldedeudas #finanzaspersonales #tarjetadecredito #presupuestomensual #googlesheets #finanzaspro",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "ANÁLISIS DE DEUDAS",
+          "image": "cena_casal",
+          "kicker": "EL ERROR DE REPARTIR CUOTAS",
+          "headline": "Pagar **3 deudas** a la vez te deja atrapado todo el año.",
+          "subtitle": "El problema no es tu esfuerzo. Es repartir cada dólar extra sin un orden claro de ataque.",
+          "hook_pill": "La trampa oculta está en el **slide 3** →"
+        },
+        {
+          "type": "diagnostic",
+          "badge": "DIAGNÓSTICO REAL",
+          "image": "cena_cartao",
+          "kicker": "EJEMPLO ILUSTRATIVO · MISMO DINERO EXTRA ($180/MES)",
+          "headline": "Mismo esfuerzo mensual. **Dos resultados** opuestos.",
+          "left_card": {
+            "label": "SIN ORDEN",
+            "badge": "REPARTIDO",
+            "rows": [
+              {"label": "Tarjeta A (+$60)", "value": "Baja lento"},
+              {"label": "Tarjeta B (+$60)", "value": "Sigue viva"},
+              {"label": "Préstamo C (+$60)", "value": "Sin cierre"}
+            ],
+            "result_label": "SENSACIÓN AL MES 6",
+            "result_value": "3 cuotas activas"
+          },
+          "right_card": {
+            "label": "CON MÉTODO",
+            "badge": "ENFOCADO",
+            "rows": [
+              {"label": "Mínimos cubiertos", "value": "Al día"},
+              {"label": "Todo el extra ($180)", "value": "Deuda #1"},
+              {"label": "Al cerrarla", "value": "Pasa a la #2"}
+            ],
+            "result_label": "IMPACTO REAL",
+            "result_value": "1 deuda menos"
+          },
+          "footnote": "*Ejemplo ilustrativo para mostrar cómo concentrar el excedente acelera el cierre de cuotas."
+        },
+        {
+          "type": "belief_shift",
+          "badge": "CAMBIO DE ENFOQUE",
+          "image": "mateo_05",
+          "kicker": "POR QUÉ EL SALDO NUNCA BAJA",
+          "headline": "Pagar **a ciegas** cuesta más que la deuda original.",
+          "points": [
+            {
+              "title": "Deudas dispersas en 4 pantallas",
+              "desc": "Si cada tarjeta vive en una app distinta, nunca ves la suma total ni el peso real sobre tu mes."
+            },
+            {
+              "title": "Vencimientos sin alerta previa",
+              "desc": "Un solo olvido de fecha te suma recargos que destruyen semanas enteras de disciplina."
+            },
+            {
+              "title": "Cero comparación de estrategia",
+              "desc": "Sin ver bola de nieve frente a avalancha en una sola tabla, eliges por impulso y abandonas."
+            }
+          ],
+          "takeaway": "No necesitas ganar el doble para respirar: necesitas **una sola tabla** que ordene tus cuotas."
+        },
+        {
+          "type": "mechanism",
+          "badge": "EL MECANISMO",
+          "image": "cena_celular",
+          "kicker": "SECUENCIA DE SALIDA · 10 MIN AL MES",
+          "headline": "El **orden exacto** para apagar deuda por deuda",
+          "bar_title": "PRIORIDAD DE ATAQUE EN TU PANEL",
+          "bar_right": "1 META A LA VEZ",
+          "segments": [
+            {"label": "1. Lista total", "weight": 34},
+            {"label": "2. Elige método", "weight": 33},
+            {"label": "3. Mide cierre", "weight": 33}
+          ],
+          "steps": [
+            {
+              "title": "Reúne todo",
+              "desc": "Anota saldo total, cuota mínima y fecha de vencimiento en la pestaña Deudas."
+            },
+            {
+              "title": "Compara rutas",
+              "desc": "Elige bola de nieve (victoria rápida) o avalancha (menor interés) con datos reales."
+            },
+            {
+              "title": "Conecta tu mes",
+              "desc": "Integra cada cuota a tus Pagos Fijos y recibe alertas antes de cada fecha límite."
+            }
+          ]
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA TANGIBLE",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Así controlas **deuda y saldo real** en 1 sola vista",
+          "window_title": "FinanzasPro · Visión General (Google Sheets)",
+          "callouts": [
+            {
+              "title": "DEUDA TOTAL",
+              "desc": "Ves tu saldo pendiente y cuánto falta para quedar libre."
+            },
+            {
+              "title": "PAGOS FIJOS",
+              "desc": "Alertas claras de próximos vencimientos antes del corte."
+            },
+            {
+              "title": "COPIA PRIVADA",
+              "desc": "Funciona directo en tu Google Sheets, en PC o teléfono."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "badge": "ACCESO DIRECTO",
+          "image": "mateo_04",
+          "pill": "DEJA DE PAGAR SIN ORDEN",
+          "headline": "Empieza tu plan de salida hoy en **menos de 10 minutos**",
+          "keyword": "METODO",
+          "secondary_keyword": "SISTEMA",
+          "instruction": "Comenta **METODO** aquí abajo y te envío el acceso directo a FinanzasPro por mensaje privado 👇"
+        }
+      ]
+    },
+    {
+      "id": "FP-019",
+      "folder": "carrossel_03",
+      "angulo": "regra 50/30/20",
+      "titulo": "Los 3 bloques que ordenan cualquier sueldo en 10 minutos al mes",
+      "cta_keyword": "CONTROL",
+      "cta_secondary": "PLANILLA",
+      "copy": "Si prometes ahorrar \"lo que sobre\" el día 30, ya sabes cómo termina el mes: casi nunca sobra nada.\n\nOrdenar tu sueldo no requiere vivir restringido ni llenar tablas imposibles. Solo necesitas dividir tu ingreso el día 1 en 3 bloques visibles antes de gastar.\n\nEn este carrusel revisamos:\n🔹 Qué cambia cuando pasas de gastar \"a ojo\" a usar los 3 bloques 50/30/20\n🔹 Por qué las dietas financieras extremas te hacen abandonar en 12 días\n🔹 Cómo funciona el bloque del 30% para disfrutar sin culpa\n🔹 Cómo FinanzasPro compara tu objetivo 50/30/20 contra tu gasto real en Google Sheets automáticamente\n\nComenta CONTROL (o PLANILLA) aquí abajo y te envío el acceso directo por mensaje privado 👇\n\n#regla503020 #presupuestopersonal #finanzaspersonales #ahorro #googlesheets #finanzaspro",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "MÉTODO 50/30/20",
+          "image": "mateo_02",
+          "kicker": "ORDEN DESDE EL DÍA 1 DE COBRO",
+          "headline": "Los **3 bloques** que ordenan cualquier sueldo en 10 minutos.",
+          "subtitle": "Sin prohibirte salir y sin llegar al día 20 adivinando cuánto te queda libre.",
+          "hook_pill": "Mira cómo se reparte el **30% sin culpa** →"
+        },
+        {
+          "type": "diagnostic",
+          "badge": "EL ESPEJO DEL MES",
+          "image": "mateo_01",
+          "kicker": "EJEMPLO ILUSTRATIVO · SUELDO DE $1.500",
+          "headline": "Ahorrar al final **nunca** funciona igual que el día 1.",
+          "left_card": {
+            "label": "GASTAR A OJO",
+            "badge": "SIN TOPES",
+            "rows": [
+              {"label": "Pagos básicos", "value": "$790"},
+              {"label": "Salidas y extras", "value": "$710"},
+              {"label": "Ahorro al día 30", "value": "$0"}
+            ],
+            "result_label": "CIERRE DEL MES",
+            "result_value": "Cero margen"
+          },
+          "right_card": {
+            "label": "3 BLOQUES 50/30/20",
+            "badge": "50/30/20",
+            "rows": [
+              {"label": "Necesidades (50%)", "value": "$750"},
+              {"label": "Gustos libres (30%)", "value": "$450"},
+              {"label": "Ahorro / Metas (20%)", "value": "$300"}
+            ],
+            "result_label": "RESERVADO EL DÍA 1",
+            "result_value": "$300 / mes"
+          },
+          "footnote": "*Ejemplo numérico ilustrativo. Los montos se ajustan automáticamente a tu ingreso real."
+        },
+        {
+          "type": "belief_shift",
+          "badge": "CAMBIO DE ENFOQUE",
+          "image": "cena_hormiga",
+          "kicker": "POR QUÉ ABANDONAS EL PRESUPUESTO",
+          "headline": "El problema no es el 50/30/20: es **llevarlo de memoria**.",
+          "points": [
+            {
+              "title": "Recortes extremos que no duran",
+              "desc": "Prometer que no gastarás nada en ocio genera culpa y rebote antes de la segunda semana."
+            },
+            {
+              "title": "Categorías mezcladas en una cuenta",
+              "desc": "Cuando renta, comida y gustos comparten el mismo número, cualquier pago te desordena."
+            },
+            {
+              "title": "Cálculos manuales cada domingo",
+              "desc": "Si tienes que sumar recibos con calculadora, terminas cerrando la libreta al mes uno."
+            }
+          ],
+          "takeaway": "Cuando tu límite está visible, **gastas tranquilo** porque sabes que tu ahorro ya está cubierto."
+        },
+        {
+          "type": "mechanism",
+          "badge": "EL MECANISMO",
+          "image": "cena_celular",
+          "kicker": "ARQUITECTURA AUTOMÁTICA · GOOGLE SHEETS",
+          "headline": "Así se dividen tus **3 bloques** sin crear fórmulas",
+          "bar_title": "DISTRIBUCIÓN AUTOMÁTICA 50 / 30 / 20",
+          "bar_right": "100% ASIGNADO",
+          "segments": [
+            {"label": "50% Necesidades", "weight": 50},
+            {"label": "30% Gustos", "weight": 30},
+            {"label": "20% Ahorro", "weight": 20}
+          ],
+          "steps": [
+            {
+              "title": "Carga tu ingreso",
+              "desc": "Registra sueldo, freelance o extras en la pestaña Ingresos en segundos."
+            },
+            {
+              "title": "Revisa tu tope",
+              "desc": "La pestaña Presupuesto compara tu meta 50/30/20 contra lo que llevas gastado."
+            },
+            {
+              "title": "Ajusta a tiempo",
+              "desc": "Ves alertas visuales cuando una categoría se acerca al límite del mes."
+            }
+          ]
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA TANGIBLE",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · PANEL FINANZASPRO",
+          "headline": "Tus porcentajes y gráficos **se actualizan solos**",
+          "window_title": "FinanzasPro · Visión General (Google Sheets)",
+          "callouts": [
+            {
+              "title": "TASA DE AHORRO",
+              "desc": "Mide tu avance frente a la meta del 20% cada mes."
+            },
+            {
+              "title": "POR CATEGORÍA",
+              "desc": "Identifica al instante qué bloque consume más dinero."
+            },
+            {
+              "title": "SIN FÓRMULAS",
+              "desc": "Haces tu copia privada en Google Sheets y listo."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "badge": "ACCESO DIRECTO",
+          "image": "mateo_03",
+          "pill": "TOMA EL CONTROL DESDE HOY",
+          "headline": "Aplica los **3 bloques** en tu propio Google Sheets",
+          "keyword": "CONTROL",
+          "secondary_keyword": "PLANILLA",
+          "instruction": "Comenta **CONTROL** aquí abajo y te envío el acceso directo a FinanzasPro por mensaje privado 👇"
+        }
+      ]
+    },
+    {
+      "id": "FP-020",
+      "folder": "carrossel_04",
+      "angulo": "gastos hormiga",
+      "titulo": "Tu tarjeta no falla por compras grandes: falla por los cobros que no duelen",
+      "cta_keyword": "PLANILLA",
+      "cta_secondary": "CONTROL",
+      "copy": "Nadie se sorprende cuando compra un boleto de avión o un televisor. Lo que desarma tu mes son los cobros de $3, $6 o $9 que pagas tocando el teléfono sin mirarlo.\n\nNo duelen cuando pasan. Duelen el día 22 cuando revisas el saldo y sientes que el dinero se evaporó.\n\nEn este carrusel te muestro:\n🔹 Cuánto suman en silencio 3 pequeños hábitos contactless al cerrar el año\n🔹 Por qué prohibirte el café no resuelve el problema de fondo\n🔹 El sistema de topes mensuales por categoría que frena la fuga sin vivir con culpa\n🔹 Cómo se ven tus gastos por categoría dentro de FinanzasPro en Google Sheets\n\nComenta PLANILLA (o CONTROL) aquí abajo y te envío el acceso directo por mensaje privado 👇\n\n#gastoshormiga #finanzaspersonales #ahorrointeligente #presupuesto #googlesheets #finanzaspro",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "FUGA SILENCIOSA",
+          "image": "cena_hormiga",
+          "kicker": "PAGOS CONTACTLESS Y SUSCRIPCIONES",
+          "headline": "Tu saldo no cae por compras grandes: cae por los **cobros que no duelen**.",
+          "subtitle": "Tocar el teléfono en 1 segundo borra la fricción de gastar… hasta que llega el resumen.",
+          "hook_pill": "Haz la cuenta rápida del **slide 2** →"
+        },
+        {
+          "type": "diagnostic",
+          "badge": "CUENTA REAL",
+          "image": "mateo_05",
+          "kicker": "EJEMPLO ILUSTRATIVO · FUGAS DIARIAS COMUNES",
+          "headline": "Lo que parece **poco hoy** pesa fuerte al final del año.",
+          "left_card": {
+            "label": "EN EL DÍA A DÍA",
+            "badge": "INVISIBLE",
+            "rows": [
+              {"label": "Café o snack fuera", "value": "$3 / día"},
+              {"label": "2 pedidos semanales", "value": "$24 / sem"},
+              {"label": "Apps sin usar", "value": "$25 / mes"}
+            ],
+            "result_label": "SALIDA MENSUAL",
+            "result_value": "$211 / mes"
+          },
+          "right_card": {
+            "label": "CON TOPE MENSUAL",
+            "badge": "CONTROLADO",
+            "rows": [
+              {"label": "Tope en Ocio", "value": "Definido"},
+              {"label": "Suscripciones activas", "value": "Auditadas"},
+              {"label": "Registro en teléfono", "value": "15 seg"}
+            ],
+            "result_label": "IMPACTO EN 12 MESES",
+            "result_value": "$2.532 / año"
+          },
+          "footnote": "*Ejemplo ilustrativo para dimensionar el impacto anual de movimientos pequeños sin límite."
+        },
+        {
+          "type": "belief_shift",
+          "badge": "CAMBIO DE ENFOQUE",
+          "image": "cena_casal",
+          "kicker": "POR QUÉ NO BASTA CON PROMETER GASTAR MENOS",
+          "headline": "La fuerza de voluntad **pierde** contra el pago en 1 clic.",
+          "points": [
+            {
+              "title": "Sin fricción no hay alerta",
+              "desc": "Cuando pagas con tarjeta o teléfono, tu cerebro no registra el acumulado de la semana."
+            },
+            {
+              "title": "Revisar el extracto al mes siguiente llega tarde",
+              "desc": "Ver en qué se fue el dinero el día 30 solo sirve para lamentarte, no para corregir."
+            },
+            {
+              "title": "Prohibirte todo tampoco funciona",
+              "desc": "El objetivo no es eliminar gustos, sino saber cuánto margen real queda en esa categoría."
+            }
+          ],
+          "takeaway": "No necesitas dejar el café: necesitas **ver el porcentaje usado** antes de pasarte del tope."
+        },
+        {
+          "type": "mechanism",
+          "badge": "EL MECANISMO",
+          "image": "mateo_02",
+          "kicker": "FRENO VISUAL EN 3 PASOS",
+          "headline": "Cómo detener la fuga **sin vivir con culpa**",
+          "bar_title": "CONTROL DE CATEGORÍAS DE ALTO DESGASTE",
+          "bar_right": "ALERTAS ACTIVAS",
+          "segments": [
+            {"label": "Ocio con tope", "weight": 40},
+            {"label": "Suscripciones", "weight": 30},
+            {"label": "Ahorro libre", "weight": 30}
+          ],
+          "steps": [
+            {
+              "title": "Registra al vuelo",
+              "desc": "Anota cada movimiento en segundos desde tu teléfono en la pestaña Gastos."
+            },
+            {
+              "title": "Fija límites claros",
+              "desc": "Define tu tope para Ocio, Restaurantes y Compras antes de empezar el mes."
+            },
+            {
+              "title": "Actúa con señales",
+              "desc": "El panel te muestra en gráficos qué categoría está absorbiendo tu presupuesto."
+            }
+          ]
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA TANGIBLE",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · PANEL DE CONTROL EN GOOGLE SHEETS",
+          "headline": "Detecta en **5 segundos** qué categoría se vacía primero",
+          "window_title": "FinanzasPro · Visión General (Google Sheets)",
+          "callouts": [
+            {
+              "title": "GRÁFICO REAL",
+              "desc": "Ves el porcentaje exacto de cada categoría de gasto."
+            },
+            {
+              "title": "ALERTAS DE LÍMITE",
+              "desc": "Avisos automáticos cuando te acercas al tope mensual."
+            },
+            {
+              "title": "100% PRIVADO",
+              "desc": "Tus números viven solo en tu cuenta de Google Sheets."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "badge": "ACCESO DIRECTO",
+          "image": "mateo_04",
+          "pill": "CORTA LAS FUGAS HOY MISMO",
+          "headline": "Pon límites visibles a tu mes con **FinanzasPro**",
+          "keyword": "PLANILLA",
+          "secondary_keyword": "CONTROL",
+          "instruction": "Comenta **PLANILLA** aquí abajo y te envío el acceso directo por mensaje privado ahora mismo 👇"
+        }
+      ]
+    },
+    {
+      "id": "FP-021",
+      "folder": "carrossel_05",
+      "angulo": "fundo de emergência",
+      "titulo": "Cómo armar tu primer mes de respaldo sin esperar un aumento de sueldo",
+      "cta_keyword": "SISTEMA",
+      "cta_secondary": "QUIERO",
+      "copy": "Mucha gente pospone su fondo de emergencia pensando \"cuando gane más, empiezo\". El problema es que sin sistema, cada aumento de sueldo se convierte en más gastos fijos.\n\nLa tranquilidad financiera empieza cuando un imprevisto médico o una reparación en casa deja de empujarte a la tarjeta de crédito.\n\nEn este carrusel ves:\n🔹 Qué pasa con un mismo imprevisto de $350 con y sin reserva\n🔹 Los 3 mitos que te impiden empezar tu fondo hoy\n🔹 Cómo fijar una meta con monto, fecha y seguimiento de 12 meses\n🔹 Cómo se ve tu avance real dentro de FinanzasPro en Google Sheets\n\nComenta SISTEMA (o QUIERO) aquí abajo y te envío el acceso directo por mensaje privado 👇\n\n#fondodeemergencia #ahorro #metasfinancieras #finanzaspersonales #googlesheets #finanzaspro",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "FONDO DE EMERGENCIA",
+          "image": "mateo_03",
+          "kicker": "TRANQUILIDAD ANTES QUE SUERTE",
+          "headline": "Arma tu **primer mes de respaldo** sin esperar un aumento.",
+          "subtitle": "Un imprevisto no debería obligarte a pasar la tarjeta ni desarmar el resto de tu año.",
+          "hook_pill": "Empieza con el paso del **slide 4** →"
+        },
+        {
+          "type": "diagnostic",
+          "badge": "DOS ESCENARIOS",
+          "image": "cena_cartao",
+          "kicker": "EJEMPLO ILUSTRATIVO · IMPREVISTO DE $350",
+          "headline": "El mismo golpe inesperado. **Dos formas** de atravesarlo.",
+          "left_card": {
+            "label": "SIN RESERVA",
+            "badge": "TARJETA",
+            "rows": [
+              {"label": "Urgencia en casa", "value": "$350"},
+              {"label": "Pago en cuotas", "value": "+ Intereses"},
+              {"label": "Mes siguiente", "value": "Descuadrado"}
+            ],
+            "result_label": "EFECTO REAL",
+            "result_value": "Nueva deuda"
+          },
+          "right_card": {
+            "label": "CON FONDO PROPIO",
+            "badge": "RESPALDO",
+            "rows": [
+              {"label": "Urgencia en casa", "value": "$350"},
+              {"label": "Sale de tu meta", "value": "0% interés"},
+              {"label": "Presupuesto mensual", "value": "Intacto"}
+            ],
+            "result_label": "EFECTO REAL",
+            "result_value": "Cero estrés"
+          },
+          "footnote": "*Ejemplo ilustrativo para mostrar cómo una reserva protege tu presupuesto mensual."
+        },
+        {
+          "type": "belief_shift",
+          "badge": "CAMBIO DE ENFOQUE",
+          "image": "mateo_01",
+          "kicker": "3 MITOS QUE FRENAN TU RESERVA",
+          "headline": "Esperar a ganar el doble **te deja sin colchón** hoy.",
+          "points": [
+            {
+              "title": "Creer que necesitas ahorrar $500 de golpe",
+              "desc": "Una reserva real nace de constancia mensual, aunque empieces con un porcentaje pequeño."
+            },
+            {
+              "title": "Dejar el dinero mezclado en la cuenta diaria",
+              "desc": "Si tu ahorro no tiene nombre, monto ni meta visible, se termina gastando en la semana tres."
+            },
+            {
+              "title": "No medir el avance acumulado del año",
+              "desc": "Sin ver crecer tu barra mes a mes, pierdes motivación y abandonas el hábito."
+            }
+          ],
+          "takeaway": "Tu primer objetivo no es 1 año de gastos: es **cubrir tu primer mes básico** con fecha real."
+        },
+        {
+          "type": "mechanism",
+          "badge": "EL MECANISMO",
+          "image": "cena_horizonte",
+          "kicker": "CONSTRUCCIÓN PROGRESIVA · 12 MESES",
+          "headline": "Cómo construir tu fondo **paso a paso**",
+          "bar_title": "RUTA DE RESPALDO EN FINANZASPRO",
+          "bar_right": "META CON FECHA",
+          "segments": [
+            {"label": "Mes 1: Base", "weight": 30},
+            {"label": "Mes 3: Calma", "weight": 35},
+            {"label": "Mes 6: Sólido", "weight": 35}
+          ],
+          "steps": [
+            {
+              "title": "Define tu número",
+              "desc": "Suma tus gastos esenciales del mes y carga tu objetivo en la pestaña Metas."
+            },
+            {
+              "title": "Separa al cobrar",
+              "desc": "Asigna tu bloque de ahorro apenas recibes tu ingreso usando la regla 50/30/20."
+            },
+            {
+              "title": "Sigue los 12 meses",
+              "desc": "Revisa tu acumulado y patrimonio neto en el Resumen Anual automático."
+            }
+          ]
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA TANGIBLE",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · METAS Y SALUD FINANCIERA",
+          "headline": "Ves tu **patrimonio y ahorro** crecer mes tras mes",
+          "window_title": "FinanzasPro · Visión General (Google Sheets)",
+          "callouts": [
+            {
+              "title": "PESTAÑA METAS",
+              "desc": "Seguimiento dedicado para tu Fondo de Emergencia."
+            },
+            {
+              "title": "RESUMEN ANUAL",
+              "desc": "Compara tus 12 meses lado a lado sin fórmulas."
+            },
+            {
+              "title": "DESDE EL MÓVIL",
+              "desc": "Actualizas tu avance en minutos desde cualquier lugar."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "badge": "ACCESO DIRECTO",
+          "image": "cena_horizonte",
+          "pill": "CONSTRUYE TU RESPALDO HOY",
+          "headline": "Activa tu **sistema financiero** en Google Sheets",
+          "keyword": "SISTEMA",
+          "secondary_keyword": "QUIERO",
+          "instruction": "Comenta **SISTEMA** aquí abajo y te envío el acceso directo a FinanzasPro por mensaje privado 👇"
+        }
+      ]
+    },
+    {
+      "id": "FP-022",
+      "folder": "carrossel_06",
+      "angulo": "planilha dashboard",
+      "titulo": "Abrir la app del banco cada mañana no te da control financiero",
+      "cta_keyword": "QUIERO",
+      "cta_secondary": "PLANILLA",
+      "copy": "Mirar el saldo de tu cuenta bancaria a primera hora solo te dice cuánto hay hoy, pero esconde lo que ya debes pagar el viernes.\n\nCuando tus ingresos, tarjetas, pagos fijos y metas viven en lugares separados, pasas el mes haciendo cuentas mentales que siempre fallan.\n\nEn este carrusel te muestro:\n🔹 La diferencia entre mirar tu saldo bancario y conocer tu saldo libre real\n🔹 Por qué abrir hojas en blanco los domingos te devuelve al caos en 5 minutos\n🔹 Cómo conectar toda tu vida financiera en un solo panel automático\n🔹 La vista real de Visión General en FinanzasPro para Google Sheets (copia privada y sin fórmulas)\n\nComenta QUIERO (o PLANILLA) aquí abajo y te envío el acceso directo por mensaje privado 👇\n\n#controlfinanciero #googlesheets #finanzaspersonales #ordenfinanciero #presupuestomensual #finanzaspro",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "PANEL FINANZASPRO",
+          "image": "mateo_01",
+          "kicker": "EL ESPEJISMO DEL SALDO BANCARIO",
+          "headline": "Abrir la app del banco **no te da** control financiero.",
+          "subtitle": "Ese número en pantalla olvida tu renta, tus pagos fijos y la cuota que vence esta semana.",
+          "hook_pill": "Mira lo que reemplaza el caos en el **slide 5** →"
+        },
+        {
+          "type": "diagnostic",
+          "badge": "SALDO REAL VS. APARENTE",
+          "image": "cena_celular",
+          "kicker": "EJEMPLO ILUSTRATIVO · LUNES DÍA 10 DEL MES",
+          "headline": "Lo que muestra tu banco vs. lo que **realmente es libre**.",
+          "left_card": {
+            "label": "APP DEL BANCO",
+            "badge": "INCOMPLETO",
+            "rows": [
+              {"label": "Saldo en pantalla", "value": "$920"},
+              {"label": "Servicios por vencer", "value": "Ocultos"},
+              {"label": "Cuota de tarjeta", "value": "Sin restar"}
+            ],
+            "result_label": "DECISIÓN TÍPICA",
+            "result_value": "Gastas de más"
+          },
+          "right_card": {
+            "label": "PANEL CONECTADO",
+            "badge": "REAL",
+            "rows": [
+              {"label": "Saldo en cuenta", "value": "$920"},
+              {"label": "Pagos fijos pendientes", "value": "-$510"},
+              {"label": "Bloque de ahorro", "value": "-$180"}
+            ],
+            "result_label": "SALDO LIBRE REAL",
+            "result_value": "$230 seguros"
+          },
+          "footnote": "*Ejemplo ilustrativo. Conocer tu saldo libre evita sobregiros y compras por impulso."
+        },
+        {
+          "type": "belief_shift",
+          "badge": "CAMBIO DE ENFOQUE",
+          "image": "cena_casal",
+          "kicker": "POR QUÉ FALLA EL CONTROL IMPROVISADO",
+          "headline": "No es falta de disciplina: te falta **un solo centro de mando**.",
+          "points": [
+            {
+              "title": "Notas sueltas y capturas en el chat",
+              "desc": "Anotar gastos dispersos nunca se suma solo ni te avisa antes de un vencimiento."
+            },
+            {
+              "title": "Hojas en blanco los domingos",
+              "desc": "Intentar programar fórmulas desde cero te hace cerrar el archivo en 5 minutos."
+            },
+            {
+              "title": "Apps cerradas que piden contraseñas bancarias",
+              "desc": "Muchas cobran mensualidades y exigen vincular cuentas en lugar de darte control privado."
+            }
+          ],
+          "takeaway": "Cuando todo vive en **tu propia copia de Google Sheets**, el orden toma 5 minutos por semana."
+        },
+        {
+          "type": "mechanism",
+          "badge": "EL ECOSISTEMA",
+          "image": "cena_horizonte",
+          "kicker": "TODO CONECTADO EN UN SOLO ARCHIVO",
+          "headline": "Qué conecta **FinanzasPro** automáticamente por ti",
+          "bar_title": "FLUJO DE PESTAÑAS INTEGRADAS",
+          "bar_right": "0 FÓRMULAS",
+          "segments": [
+            {"label": "Movimientos", "weight": 34},
+            {"label": "Planificación", "weight": 33},
+            {"label": "Análisis", "weight": 33}
+          ],
+          "steps": [
+            {
+              "title": "Movimientos",
+              "desc": "Ingresos y Gastos listos para registrar salario, freelance, extras y salidas."
+            },
+            {
+              "title": "Planificación",
+              "desc": "Presupuesto 50/30/20, Deudas, Metas y Pagos Fijos conectados entre sí."
+            },
+            {
+              "title": "Análisis total",
+              "desc": "Visión General, Patrimonio, Resumen Anual de 12 meses y Alertas."
+            }
+          ]
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA TANGIBLE",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · VISIÓN GENERAL DE FINANZASPRO",
+          "headline": "Tu panorama completo en **una sola pantalla**",
+          "window_title": "FinanzasPro · Visión General (Google Sheets)",
+          "callouts": [
+            {
+              "title": "SALDO Y FLUJO",
+              "desc": "Ingresos, gastos, tasa de ahorro y salud financiera."
+            },
+            {
+              "title": "ALERTAS CLARAS",
+              "desc": "Pagos pendientes y deuda total visibles al instante."
+            },
+            {
+              "title": "SIN SUSCRIPCIÓN",
+              "desc": "Haces tu copia privada en tu Google Drive para siempre."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "badge": "ACCESO DIRECTO",
+          "image": "mateo_04",
+          "pill": "DEJA DE ADIVINAR TU SALDO",
+          "headline": "Empieza a ver tu dinero con **claridad total hoy**",
+          "keyword": "QUIERO",
+          "secondary_keyword": "PLANILLA",
+          "instruction": "Comenta **QUIERO** aquí abajo y te envío el acceso directo a FinanzasPro por mensaje privado 👇"
+        }
+      ]
+    }
+  ]
+}
