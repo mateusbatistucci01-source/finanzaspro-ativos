@@ -1,0 +1,1057 @@
+{
+  "lote": "FP-023 a FP-032",
+  "marca": "FinanzasPro",
+  "handle": "@mateorivas_finanzas",
+  "gerador": "gerador_carrosseis_v2.py",
+  "paper_ref": "Paper · FINANZASPRO - Carrosseis Mateo Rivas · página 'Lote FP-023 a FP-032 — 3 Temas'",
+  "carrosseis": [
+    {
+      "id": "FP-023",
+      "folder": "carrossel_07",
+      "theme": "light",
+      "badge": "AUDITORÍA",
+      "angulo": "gastos hormiga",
+      "titulo": "Las 5 fugas silenciosas que se comen el 28% de tu sueldo sin que lo notes",
+      "cta_keyword": "FUGAS",
+      "copy": "Tu sueldo no es corto: tiene 5 agujeros que nadie revisa.\n\nEn un ejemplo con un sueldo de $1.500, estas fugas suman $420 al mes. Eso es el 28% de lo que ganas, sin una sola compra grande.\n\nGuárdalo para revisarlo con tu estado de cuenta:\n🔹 Suscripciones dormidas: lo que pagas y no abres hace 30 días\n🔹 Delivery por cansancio: 3 pedidos por semana suman rápido\n🔹 Comisiones e intereses por pagar solo el mínimo\n🔹 Compras \"de paso\" en el súper que no estaban en la lista\n🔹 Microgastos diarios: café, snacks y transporte por apuro\n\nCerrar solo 3 de las 5 te devuelve $275 al mes (ejemplo ilustrativo).\n\n¿Cuál de las 5 fugas es la que más te cuesta cerrar? Cuéntame en los comentarios.\n\nComenta FUGAS y te envío por mensaje privado el acceso a FinanzasPro en Google Sheets para ver tus fugas por categoría 👇\n\n#finanzaspersonales #gastoshormiga #ahorro #presupuesto #controldegastos #educacionfinanciera",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "cutout",
+          "image": "mateo_15_recorte",
+          "flip": true,
+          "kicker": "5 FUGAS SILENCIOSAS",
+          "headline": "Lo que se come el **28%** de tu sueldo sin avisar.",
+          "headline_size": 90,
+          "stat": "$420",
+          "stat_label": "SE VAN CADA MES",
+          "stat_top": 610,
+          "subtitle": "No es un gasto grande. Son 5 cobros pequeños que nadie revisa.",
+          "note": "Ejemplo ilustrativo con un sueldo de $1.500"
+        },
+        {
+          "type": "statement",
+          "badge": "EL PROBLEMA",
+          "image": "cena_balde",
+          "image_placement": "top",
+          "photo_height": 520,
+          "object_position": "center 62%",
+          "kicker": "LA METÁFORA DEL BALDE",
+          "headline": "Tu sueldo no es corto. **Tiene agujeros.**",
+          "body": "Un balde con 5 fisuras pequeñas se vacía igual que uno con un agujero grande. Solo tarda más en notarse.",
+          "hook": "Las 5 fisuras, con números exactos →"
+        },
+        {
+          "type": "list",
+          "badge": "LAS 5 FUGAS",
+          "kicker": "EJEMPLO ILUSTRATIVO · TOTAL $420/MES",
+          "headline": "Dónde se va tu **28%**",
+          "headline_size": 64,
+          "big_size": 58,
+          "big_width": 190,
+          "tones": ["", "", "ink", "ink", "ink"],
+          "items": [
+            {"big": "$120", "title": "Delivery por cansancio", "desc": "3 pedidos por semana \"porque no hubo tiempo\"."},
+            {"big": "$110", "title": "Compras \"de paso\" en el súper", "desc": "Todo lo que no estaba en la lista."},
+            {"big": "$75", "title": "Microgastos diarios", "desc": "Café, snacks y transporte por apuro."},
+            {"big": "$70", "title": "Comisiones e intereses", "desc": "Pagar el mínimo o retirar con cargo."},
+            {"big": "$45", "title": "Suscripciones dormidas", "desc": "Apps que pagas y no abres hace 30 días."}
+          ],
+          "hook": "¿Y si cierras solo 3? Mira la diferencia →"
+        },
+        {
+          "type": "compare",
+          "badge": "LA DIFERENCIA",
+          "kicker": "MISMO SUELDO · OTRA DECISIÓN",
+          "headline": "No tienes que cerrar las 5. **Con 3 basta.**",
+          "left": {
+            "label": "Sin revisar",
+            "result": "$5.040",
+            "result_label": "se van en un año",
+            "rows": [
+              {"label": "Fugas activas", "value": "5 de 5"},
+              {"label": "Cada mes", "value": "$420"},
+              {"label": "Lo notas", "value": "El día 20"}
+            ]
+          },
+          "right": {
+            "label": "Cerrando 3 fugas",
+            "result": "$3.300",
+            "result_label": "recuperas en un año",
+            "rows": [
+              {"label": "Cierras", "value": "Delivery, súper, suscripciones"},
+              {"label": "Cada mes", "value": "+$275 para ti"},
+              {"label": "Lo notas", "value": "Desde la semana 1"}
+            ]
+          },
+          "footnote": "Ejemplo ilustrativo: $120 + $110 + $45 = $275/mes × 12.",
+          "hook": "Cómo las ves todas en una sola pantalla →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Así se ven tus fugas en **1 sola pantalla**",
+          "callouts": [
+            {"title": "Por categoría", "desc": "El gráfico te muestra qué categoría se lleva más."},
+            {"title": "Mes vs. mes", "desc": "Ingresos y gastos lado a lado, mes a mes."},
+            {"title": "Saldo real", "desc": "Cuánto te queda hoy, sin hacer cuentas."}
+          ],
+          "hook": "Tu siguiente paso, en 1 comentario →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "cena_hormiga",
+          "photo_height": 330,
+          "object_position": "center 55%",
+          "kicker": "TAPA TUS FUGAS ESTE MES",
+          "headline": "Encuentra tus 5 fugas **antes del día 20.**",
+          "headline_size": 62,
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, en tu propia copia privada",
+            "La pestaña <b>Gastos</b> para ver cada fuga por categoría",
+            "<b>Presupuesto</b> y <b>Alertas</b> para ponerle tope a cada una"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-024",
+      "folder": "carrossel_08",
+      "theme": "dark",
+      "badge": "DEUDAS",
+      "angulo": "controle de dívidas",
+      "titulo": "Bola de Nieve vs. Avalancha: cuál método apaga tus tarjetas más rápido (con números reales)",
+      "cta_keyword": "DEUDAS",
+      "copy": "Bola de Nieve o Avalancha: hice las cuentas con 3 deudas reales de ejemplo y el resultado sorprende.\n\nMismo dinero ($450 al mes), mismas deudas ($5.400 en total), dos órdenes distintos:\n🔹 Bola de Nieve (de la más pequeña a la más grande): primera deuda cerrada en el mes 3\n🔹 Avalancha (de la tasa más alta a la más baja): $69 menos de intereses en total\n🔹 Las dos rutas terminan en el mes 16\n🔹 La que gana es la que sostienes hasta el final\n\nSi necesitas una victoria rápida para no rendirte, Bola de Nieve. Si te motivan los números, Avalancha. Lo único que no funciona es repartir sin orden.\n\n¿Tú cuál eliges? Escribe NIEVE o AVALANCHA en los comentarios.\n\nComenta DEUDAS y te envío por mensaje privado el acceso a FinanzasPro, con la pestaña Deudas lista para registrar saldo, tasa y cuota mínima 👇\n\n#deudas #tarjetadecredito #finanzaspersonales #salirdedeudas #educacionfinanciera #presupuesto",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "fullbleed",
+          "image": "mateo_13_estudio",
+          "object_position": "center 18%",
+          "kicker": "CON NÚMEROS REALES",
+          "headline": "Bola de Nieve<br><span class=\"light-w accent\">vs. Avalancha</span>",
+          "headline_size": 104,
+          "subtitle": "Cuál apaga tus tarjetas más rápido. Y cuál te ahorra más intereses."
+        },
+        {
+          "type": "list",
+          "badge": "EL ESCENARIO",
+          "kicker": "EJEMPLO ILUSTRATIVO · $450/MES PARA DEUDAS",
+          "headline": "Mismas 3 deudas. **Mismo dinero.**",
+          "big_size": 74,
+          "big_width": 250,
+          "tones": ["ink", "", "dim"],
+          "items": [
+            {"big": "$600", "title": "Tarjeta A", "desc": "45% anual · cuota mínima $30"},
+            {"big": "$1.800", "title": "Tarjeta B", "desc": "60% anual · cuota mínima $60"},
+            {"big": "$3.000", "title": "Préstamo C", "desc": "28% anual · cuota mínima $120"}
+          ],
+          "takeaway": "Pagas los mínimos ($210) y los **$240 extra** van a una sola deuda.",
+          "hook": "Ruta 1: Bola de Nieve →"
+        },
+        {
+          "type": "statement",
+          "badge": "BOLA DE NIEVE",
+          "image": "mateo_05",
+          "image_placement": "side",
+          "object_position": "center 30%",
+          "kicker": "DE LA MÁS PEQUEÑA A LA MÁS GRANDE",
+          "mega": "Mes 3",
+          "mega_size": 170,
+          "mega_label": "PRIMERA DEUDA CERRADA",
+          "headline": "Victoria rápida. **Motivación real.**",
+          "headline_size": 54,
+          "body": "Orden: A → B → C. Cada cuota liberada se suma a la siguiente.",
+          "hook": "Ruta 2: Avalancha →"
+        },
+        {
+          "type": "statement",
+          "badge": "AVALANCHA",
+          "image": "cena_cartao",
+          "image_placement": "side",
+          "object_position": "center center",
+          "kicker": "DE LA TASA MÁS ALTA A LA MÁS BAJA",
+          "mega": "−$69",
+          "mega_size": 170,
+          "mega_label": "MENOS INTERESES EN TOTAL",
+          "headline": "Más eficiente. **Más paciencia.**",
+          "headline_size": 54,
+          "body": "Orden: B → A → C. La primera deuda cae recién en el mes 8.",
+          "hook": "El resultado lado a lado →"
+        },
+        {
+          "type": "compare",
+          "badge": "RESULTADO",
+          "kicker": "SIMULACIÓN MES A MES · MISMOS $450",
+          "headline": "La diferencia es **más pequeña** de lo que crees.",
+          "headline_size": 62,
+          "left": {
+            "label": "Bola de Nieve",
+            "result": "$1.444",
+            "result_label": "de intereses en total",
+            "rows": [
+              {"label": "Primera victoria", "value": "Mes 3"},
+              {"label": "Libre de deudas", "value": "Mes 16"}
+            ]
+          },
+          "right": {
+            "label": "Avalancha",
+            "result": "$1.375",
+            "result_label": "de intereses en total",
+            "rows": [
+              {"label": "Primera victoria", "value": "Mes 8"},
+              {"label": "Libre de deudas", "value": "Mes 16"}
+            ]
+          },
+          "takeaway": "Gana el método que **sostienes 16 meses**, no el que suena mejor.",
+          "hook": "Cómo ves tu deuda total y tu avance →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Tu **deuda total** y tu fecha de salida, a la vista",
+          "callouts": [
+            {"title": "Deuda total", "desc": "Cuánto debes hoy y en cuántos meses quedas libre."},
+            {"title": "Por pagar", "desc": "Lo pendiente del mes, con aviso de vencidos."},
+            {"title": "Salud financiera", "desc": "Un puntaje para ver si avanzas o retrocedes."}
+          ],
+          "hook": "Elige tu ruta y empieza hoy →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "kicker": "ELIGE TU RUTA HOY",
+          "headline": "Registra tus deudas una vez. **Mira cómo bajan cada mes.**",
+          "headline_size": 64,
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada en tu cuenta",
+            "La pestaña <b>Deudas</b> para anotar saldo, tasa y cuota mínima",
+            "<b>Pagos Fijos</b> y <b>Alertas</b> para no pasarte de ninguna fecha"
+          ],
+          "note": "Sin saber fórmulas. Funciona en el celular y en la computadora."
+        }
+      ]
+    },
+    {
+      "id": "FP-025",
+      "folder": "carrossel_09",
+      "theme": "slate",
+      "badge": "REGLA",
+      "angulo": "regra 50/30/20",
+      "titulo": "Por qué la regla 50/30/20 clásica falla hoy (y la versión ajustada que sí funciona)",
+      "cta_keyword": "REGLA",
+      "copy": "La regla 50/30/20 no está muerta. Solo fue pensada para otros precios.\n\nSi la aplicaste y no te funcionó, probablemente no fue tu culpa:\n🔹 El 50% para necesidades ya no alcanza en muchas ciudades\n🔹 El 20% de ahorro queda al final, y al final no sobra nada\n🔹 El 30% de gustos no tiene tope semanal y se acaba en 10 días\n\nLa versión ajustada que te propongo: 60% necesidades reales, 20% futuro (que se aparta el día de pago, antes de gastar) y 20% estilo de vida con un tope semanal visible.\n\nEjemplo con $1.200: $720 necesidades, $240 futuro y $60 por semana para gustos sin culpa.\n\n¿Qué porcentaje se te escapa más a ti? Te leo en los comentarios.\n\nComenta REGLA y te envío por mensaje privado el acceso a FinanzasPro con la pestaña Presupuesto que calcula tu distribución sola 👇\n\n#regla503020 #presupuesto #finanzaspersonales #ahorro #educacionfinanciera #organizacionfinanciera",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "fullbleed",
+          "image": "mateo_02",
+          "object_position": "center 22%",
+          "kicker": "LA REGLA QUE TODOS REPITEN",
+          "headline": "Por qué la **50/30/20** falla hoy.",
+          "subtitle": "Y la versión ajustada que sí aguanta los precios de ahora.",
+          "chip": "La versión nueva está en el <b>slide 3</b> →"
+        },
+        {
+          "type": "list",
+          "badge": "POR QUÉ FALLA",
+          "kicker": "3 GRIETAS DE LA VERSIÓN CLÁSICA",
+          "headline": "No fallas tú. **Falla el reparto.**",
+          "big_size": 80,
+          "big_width": 120,
+          "tones": ["", "", ""],
+          "items": [
+            {"big": "01", "title": "El 50% ya no alcanza", "desc": "En muchas ciudades, vivienda, comida y transporte ya pasan de la mitad del sueldo."},
+            {"big": "02", "title": "El 20% llega al final", "desc": "Si ahorras lo que sobra, nunca sobra nada."},
+            {"big": "03", "title": "El 30% no tiene tope", "desc": "Sin un límite semanal, los gustos del mes se acaban en 10 días."}
+          ],
+          "hook": "La versión ajustada →"
+        },
+        {
+          "type": "list",
+          "badge": "VERSIÓN AJUSTADA",
+          "kicker": "LA VERSIÓN AJUSTADA",
+          "headline": "50/30/20 no muere. <span class=\"light-w\" style=\"color:var(--body)\">Se recalibra.</span>",
+          "headline_size": 76,
+          "big_size": 96,
+          "big_width": 240,
+          "tones": ["", "ink", "dim"],
+          "items": [
+            {"big": "60%", "title": "Necesidades reales", "desc": "Vivienda, comida, transporte y pagos fijos al costo de hoy."},
+            {"big": "20%", "title": "Futuro primero", "desc": "Fondo de emergencia y deudas. Se aparta el día de pago."},
+            {"big": "20%", "title": "Estilo de vida", "desc": "Lo que queda, sin culpa. Con un tope semanal visible."}
+          ],
+          "hook": "Así se ve con un sueldo real →"
+        },
+        {
+          "type": "bar",
+          "badge": "EN NÚMEROS",
+          "kicker": "EJEMPLO ILUSTRATIVO",
+          "headline": "Con $1.200 al mes, **así queda.**",
+          "total_label": "Sueldo neto",
+          "total_value": "$1.200",
+          "segments": [
+            {"short": "60%", "weight": 60, "label": "Necesidades reales", "desc": "Alquiler, comida, transporte, servicios", "value": "$720"},
+            {"short": "20%", "weight": 20, "label": "Futuro primero", "desc": "Se transfiere el mismo día de pago", "value": "$240"},
+            {"short": "20%", "weight": 20, "label": "Estilo de vida", "desc": "Tope visible: $60 por semana", "value": "$240"}
+          ],
+          "footnote": "El orden importa: primero el 20% de futuro, después el resto.",
+          "hook": "Tu propia versión, en 1 comentario →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "cena_bloques",
+          "photo_height": 340,
+          "object_position": "center 60%",
+          "kicker": "AJUSTA TU REGLA HOY",
+          "headline": "Tus porcentajes, **calculados solos.**",
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "La pestaña <b>Presupuesto</b> con tu regla 50/30/20 y su % real",
+            "Límite por categoría con aviso cuando estás <b>cerca del tope</b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-026",
+      "folder": "carrossel_10",
+      "theme": "light",
+      "badge": "RITUAL",
+      "angulo": "organização semanal",
+      "titulo": "El ritual de domingo de 12 minutos que elimina la ansiedad financiera de toda tu semana",
+      "cta_keyword": "30DIAS",
+      "copy": "12 minutos el domingo. Esa es la diferencia entre empezar la semana con miedo o con un plan.\n\nLa ansiedad financiera casi nunca viene de tener poco dinero. Viene de no saber cuánto te queda.\n\nEl ritual, minuto a minuto (guárdalo):\n🔹 Minutos 0 a 3: registra los gastos de la semana que pasó\n🔹 Minutos 3 a 6: compara lo gastado con tu presupuesto\n🔹 Minutos 6 a 9: revisa los pagos de los próximos 7 días\n🔹 Minutos 9 a 12: define tu tope de gasto para la semana\n\nEl lunes ya no abres la app del banco con miedo: ya sabes qué viene y cuánto puedes gastar.\n\n¿Qué día de la semana sientes más ansiedad con tu dinero? Te leo.\n\nComenta 30DIAS y te envío por mensaje privado el acceso a FinanzasPro para hacer este ritual durante los próximos 30 días 👇\n\n#finanzaspersonales #ansiedadfinanciera #habitosfinancieros #presupuesto #ahorro #organizacionfinanciera",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "framed",
+          "image": "mateo_11_clean",
+          "photo_height": 640,
+          "object_position": "center 62%",
+          "kicker": "RITUAL DE DOMINGO",
+          "headline": "**12 minutos** que apagan tu ansiedad financiera.",
+          "headline_size": 78,
+          "subtitle": "Lo haces el domingo. Lo sientes toda la semana."
+        },
+        {
+          "type": "statement",
+          "badge": "EL ORIGEN",
+          "kicker": "LO QUE NADIE TE DICE",
+          "mega": "¿?",
+          "mega_size": 230,
+          "headline": "La ansiedad no viene del dinero. **Viene de no saber.**",
+          "headline_size": 70,
+          "body": "Cuando no sabes cuánto te queda, cada compra se siente como un riesgo. 12 minutos de claridad cambian eso.",
+          "hook": "El ritual, minuto a minuto →"
+        },
+        {
+          "type": "steps",
+          "badge": "EL RITUAL",
+          "kicker": "GUÁRDALO · 4 BLOQUES DE 3 MINUTOS",
+          "headline": "Tu domingo, **minuto a minuto.**",
+          "steps": [
+            {"tag": "Min 0–3", "title": "Registra la semana", "desc": "Anota los gastos que quedaron sueltos: tickets, transferencias, efectivo."},
+            {"tag": "Min 3–6", "title": "Compara con tu presupuesto", "desc": "¿Qué categoría va por encima? Solo mírala, sin culpa."},
+            {"tag": "Min 6–9", "title": "Mira los próximos 7 días", "desc": "Pagos fijos, cuotas y vencimientos que vienen esta semana."},
+            {"tag": "Min 9–12", "title": "Define tu tope semanal", "desc": "Un número claro de cuánto puedes gastar hasta el domingo."}
+          ],
+          "hook": "Qué cambia el lunes →"
+        },
+        {
+          "type": "compare",
+          "badge": "EL LUNES",
+          "kicker": "LA MISMA SEMANA, DOS VERSIONES",
+          "headline": "Lo que cambia **cuando ya sabes.**",
+          "left": {
+            "label": "Sin ritual",
+            "result": "Miedo",
+            "result_label": "al abrir la app del banco",
+            "rows": [
+              {"label": "Pagos de la semana", "value": "Te sorprenden"},
+              {"label": "Cuánto puedes gastar", "value": "Lo adivinas"},
+              {"label": "Viernes", "value": "Culpa"}
+            ]
+          },
+          "right": {
+            "label": "Con ritual",
+            "result": "Plan",
+            "result_label": "antes de que empiece la semana",
+            "rows": [
+              {"label": "Pagos de la semana", "value": "Ya los viste"},
+              {"label": "Cuánto puedes gastar", "value": "Tienes un tope"},
+              {"label": "Viernes", "value": "Gastas tranquilo"}
+            ]
+          },
+          "hook": "Dónde haces los 12 minutos →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Tus 12 minutos ocurren **en esta pantalla**",
+          "callouts": [
+            {"title": "Saldo del mes", "desc": "Cuánto te queda, actualizado al registrar."},
+            {"title": "Por pagar", "desc": "Lo pendiente de la semana, sin sorpresas."},
+            {"title": "Tasa de ahorro", "desc": "Si tu semana te acercó o te alejó de tu meta."}
+          ],
+          "hook": "El reto de 30 días →"
+        },
+        {
+          "type": "cta",
+          "badge": "RETO 30 DÍAS",
+          "image": "mateo_03",
+          "photo_height": 340,
+          "object_position": "center 22%",
+          "kicker": "4 DOMINGOS SEGUIDOS",
+          "headline": "Haz el ritual **durante 30 días.**",
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "<b>Gastos</b>, <b>Pagos Fijos</b> y <b>Presupuesto</b> listos para tus 12 minutos",
+            "Tu <b>Visión General</b> para ver el antes y el después del mes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-027",
+      "folder": "carrossel_11",
+      "theme": "dark",
+      "badge": "FONDO",
+      "angulo": "fundo de emergência",
+      "titulo": "Cómo construir tu primer fondo de emergencia de 3 meses aunque hoy llegues justo a fin de mes",
+      "cta_keyword": "FONDO",
+      "copy": "Un fondo de emergencia de 3 meses no empieza con $3.000. Empieza con $150.\n\nSi hoy llegas justo a fin de mes, este es el plan realista (ejemplo con $1.000 de gastos esenciales):\n🔹 Tu número: gastos esenciales × 3 = $3.000 (no tu sueldo completo)\n🔹 Etapa 1: $500 de colchón, alcanzada en el mes 3\n🔹 Etapa 2: 1 mes cubierto ($1.000) en el mes 6\n🔹 Etapa 3: 3 meses cubiertos en el mes 19\n🔹 De dónde salen los $150 al mes: $70 de fugas recuperadas, $50 automáticos el día de pago y $30 de tope en gastos hormiga\n\nNo es rápido. Es seguro. Y desde la etapa 1 ya un imprevisto deja de convertirse en deuda.\n\n¿En qué etapa estás hoy: 0, 1, 2 o 3? Respóndeme con el número.\n\nComenta FONDO y te envío por mensaje privado el acceso a FinanzasPro con la pestaña Metas para seguir tu fondo con porcentaje de avance 👇\n\n#fondodeemergencia #ahorro #finanzaspersonales #educacionfinanciera #presupuesto #habitosfinancieros",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "fullbleed",
+          "image": "cena_tren",
+          "object_position": "center 30%",
+          "kicker": "AUNQUE HOY LLEGUES JUSTO",
+          "headline": "Tu primer fondo de emergencia de **3 meses.**",
+          "headline_size": 92,
+          "subtitle": "Paso a paso, empezando con lo que tienes hoy.",
+          "chip": "El plan completo en <b>8 slides</b> →"
+        },
+        {
+          "type": "statement",
+          "badge": "POR QUÉ",
+          "kicker": "SIN FONDO, PASA ESTO",
+          "mega": "$400",
+          "mega_label": "UNA REPARACIÓN INESPERADA",
+          "headline": "Sin fondo, cada imprevisto **se convierte en deuda.**",
+          "headline_size": 64,
+          "body": "Y si esa deuda va a la tarjeta pagando el mínimo, te sigue durante meses con intereses.",
+          "hook": "Primero, calcula tu número →"
+        },
+        {
+          "type": "statement",
+          "badge": "TU NÚMERO",
+          "kicker": "EJEMPLO ILUSTRATIVO",
+          "mega": "$3.000",
+          "mega_size": 190,
+          "mega_label": "$1.000 DE GASTOS ESENCIALES × 3",
+          "headline": "No es tu sueldo × 3. **Son tus esenciales × 3.**",
+          "headline_size": 62,
+          "body": "Vivienda, comida, transporte, servicios y cuotas mínimas. Nada más. Así la meta es más pequeña y más real.",
+          "hook": "Divídelo en 3 etapas →"
+        },
+        {
+          "type": "list",
+          "badge": "3 ETAPAS",
+          "kicker": "UNA META GRANDE, TRES PEQUEÑAS",
+          "headline": "No vas por $3.000. **Vas por $500.**",
+          "big_size": 74,
+          "big_width": 250,
+          "tones": ["", "ink", "dim"],
+          "items": [
+            {"big": "$500", "title": "Etapa 1 · Colchón", "desc": "Cubre la llanta, el médico o el celular roto sin tarjeta."},
+            {"big": "$1.000", "title": "Etapa 2 · 1 mes", "desc": "Un mes de esenciales cubierto. Aquí baja el estrés."},
+            {"big": "$3.000", "title": "Etapa 3 · 3 meses", "desc": "Margen real para un despido o una emergencia grande."}
+          ],
+          "hook": "¿De dónde sale el dinero si llegas justo? →"
+        },
+        {
+          "type": "bar",
+          "badge": "DE DÓNDE SALE",
+          "kicker": "EJEMPLO ILUSTRATIVO · SIN AUMENTO DE SUELDO",
+          "headline": "$150 al mes **sin ganar más.**",
+          "total_label": "Ahorro mensual",
+          "total_value": "$150",
+          "segments": [
+            {"short": "$70", "weight": 70, "label": "Fugas recuperadas", "desc": "2 suscripciones + 1 delivery menos por semana", "value": "$70"},
+            {"short": "$50", "weight": 50, "label": "Ahorro automático", "desc": "Transferencia el mismo día de pago", "value": "$50"},
+            {"short": "$30", "weight": 30, "label": "Tope de gastos hormiga", "desc": "Un límite semanal para café y snacks", "value": "$30"}
+          ],
+          "footnote": "Más una venta única de $150 (algo que ya no usas) para arrancar.",
+          "hook": "La cronología realista →"
+        },
+        {
+          "type": "steps",
+          "badge": "CRONOLOGÍA",
+          "kicker": "$150 INICIALES + $150 AL MES",
+          "headline": "No es rápido. **Es seguro.**",
+          "steps": [
+            {"tag": "Mes 3", "title": "Colchón de $600", "desc": "Etapa 1 superada. Un imprevisto ya no va a la tarjeta."},
+            {"tag": "Mes 6", "title": "1 mes cubierto · $1.050", "desc": "Etapa 2. Si algo falla, tienes 30 días de margen."},
+            {"tag": "Mes 19", "title": "3 meses cubiertos · $3.000", "desc": "Etapa 3. Tu fondo completo, sin haber ganado más."}
+          ],
+          "takeaway": "Si cierras una deuda en el camino, suma esa cuota y **llegas antes.**",
+          "hook": "Cómo sigues tu avance →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Tu fondo, con **% de avance** a la vista",
+          "callouts": [
+            {"title": "Metas en marcha", "desc": "El fondo de emergencia con su porcentaje cumplido."},
+            {"title": "Tasa de ahorro", "desc": "Cuánto de tu ingreso estás guardando este mes."},
+            {"title": "Patrimonio", "desc": "Activos menos deudas: tu número real."}
+          ],
+          "hook": "Empieza tu etapa 1 hoy →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "cena_horizonte",
+          "photo_height": 320,
+          "object_position": "center 45%",
+          "kicker": "TU ETAPA 1 EMPIEZA HOY",
+          "headline": "Del mes justo a **3 meses de respaldo.**",
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "La pestaña <b>Metas</b> para seguir tu fondo con % de avance",
+            "<b>Gastos</b> y <b>Presupuesto</b> para encontrar tus $150 al mes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-028",
+      "folder": "carrossel_12",
+      "theme": "slate",
+      "badge": "DIAGNÓSTICO",
+      "angulo": "controle de dívidas",
+      "titulo": "Auditoría financiera exprés: 5 señales de que estás financiando tu estilo de vida con deuda futura",
+      "cta_keyword": "DIAGNOSTICO",
+      "copy": "Haz esta auditoría en 60 segundos: si marcas 2 o más, tu estilo de vida de hoy lo está pagando tu sueldo de los próximos meses.\n\nLas 5 señales:\n🔹 Pagas el mínimo de la tarjeta \"solo este mes\" desde hace 3 meses\n🔹 La tarjeta paga el súper, no solo emergencias\n🔹 No sabes cuánto debes en total sin abrir 3 apps\n🔹 Pagas en cuotas cosas que se acaban antes de terminar de pagarlas\n🔹 Tu sueldo subió, pero tu saldo a fin de mes sigue en cero\n\nNo es para sentir culpa. Es para saber desde dónde partes. Lo que no se mide, se repite.\n\n¿Cuántas marcaste? Escribe el número del 0 al 5 en los comentarios (nadie juzga aquí).\n\nComenta DIAGNOSTICO y te envío por mensaje privado el acceso a FinanzasPro para ver tu deuda total, tu patrimonio y tu salud financiera en una sola vista 👇\n\n#deudas #finanzaspersonales #tarjetadecredito #educacionfinanciera #controldegastos #saludfinanciera",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "fullbleed",
+          "image": "mateo_12_corredor",
+          "object_position": "center 30%",
+          "kicker": "AUDITORÍA EXPRÉS · 60 SEGUNDOS",
+          "headline": "5 señales de que vives con **deuda futura.**",
+          "headline_size": 92,
+          "subtitle": "Si marcas 2 o más, tu sueldo de mañana ya está pagando tu hoy.",
+          "chip": "Cuenta cuántas marcas →"
+        },
+        {
+          "type": "list",
+          "badge": "SEÑALES 1–3",
+          "kicker": "MARCA LAS QUE TE PASAN",
+          "headline": "Las primeras 3 **parecen normales.**",
+          "big_size": 80,
+          "big_width": 120,
+          "tones": ["", "", ""],
+          "items": [
+            {"big": "01", "title": "El mínimo \"solo este mes\"", "desc": "Pagas la cuota mínima de la tarjeta desde hace 3 meses seguidos."},
+            {"big": "02", "title": "La tarjeta paga el súper", "desc": "Ya no es para emergencias: cubre gastos de todos los días."},
+            {"big": "03", "title": "Deuda total desconocida", "desc": "No puedes decir cuánto debes sin abrir 3 apps distintas."}
+          ],
+          "hook": "Las 2 señales más silenciosas →"
+        },
+        {
+          "type": "list",
+          "badge": "SEÑALES 4–5",
+          "kicker": "LAS MÁS SILENCIOSAS",
+          "headline": "Estas 2 **casi nadie las ve.**",
+          "big_size": 80,
+          "big_width": 120,
+          "tones": ["", ""],
+          "items": [
+            {"big": "04", "title": "Cuotas que sobreviven a la compra", "desc": "Sigues pagando la cena, el viaje o la ropa meses después."},
+            {"big": "05", "title": "Más sueldo, mismo cero", "desc": "Tu ingreso subió, pero a fin de mes tu saldo sigue igual."}
+          ],
+          "takeaway": "¿Marcaste **2 o más**? Mira lo que significa →",
+          "hook": "Tu resultado →"
+        },
+        {
+          "type": "statement",
+          "badge": "TU RESULTADO",
+          "image": "cena_balde",
+          "image_placement": "side",
+          "object_position": "center 60%",
+          "kicker": "2 SEÑALES O MÁS",
+          "mega": "2+",
+          "mega_size": 210,
+          "headline": "Tu estilo de vida lo paga **tu sueldo futuro.**",
+          "headline_size": 56,
+          "body": "No es culpa. Es un punto de partida. Lo que no se mide, se repite.",
+          "hook": "Cómo se mide en una sola vista →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Tu diagnóstico completo, **en 1 pantalla**",
+          "callouts": [
+            {"title": "Deuda total", "desc": "Cuánto debes y en cuántos meses quedas libre."},
+            {"title": "Patrimonio neto", "desc": "Activos menos pasivos, sin adivinar."},
+            {"title": "Salud financiera", "desc": "Un puntaje de 0 a 100 que puedes mejorar."}
+          ],
+          "hook": "Haz tu diagnóstico hoy →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "kicker": "DE LA DUDA AL NÚMERO",
+          "headline": "Deja de adivinar. **Mide desde dónde partes.**",
+          "headline_size": 66,
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "<b>Deudas</b> y <b>Patrimonio</b> para ver tu foto real de hoy",
+            "Tu <b>Salud financiera</b> en la Visión General, mes a mes"
+          ],
+          "note": "Sin saber fórmulas. Funciona en el celular y en la computadora."
+        }
+      ]
+    },
+    {
+      "id": "FP-029",
+      "folder": "carrossel_13",
+      "theme": "light",
+      "badge": "DÍA DE PAGO",
+      "angulo": "controle do salário",
+      "titulo": "Día de pago sin improvisar: exactamente qué hacer en las primeras 2 horas tras recibir tu sueldo",
+      "cta_keyword": "CONTROL",
+      "copy": "Lo que haces en las primeras 2 horas después de cobrar decide cómo termina tu mes.\n\nEl protocolo del día de pago (guárdalo para el próximo):\n🔹 0:00 a 0:15: registra tu ingreso neto real\n🔹 0:15 a 0:45: paga primero lo fijo (alquiler, servicios, cuotas)\n🔹 0:45 a 1:15: aparta tu ahorro y tu fondo antes de gastar un peso\n🔹 1:15 a 2:00: divide lo que queda en 4 topes semanales\n\nEjemplo con $1.400 netos: $700 de pagos fijos, $210 de ahorro, $140 extra a deudas y $87,50 por semana para vivir.\n\nCuando el dinero ya tiene destino, no hay nada que improvisar.\n\n¿Qué es lo primero que haces tú cuando cobras? Te leo en los comentarios.\n\nComenta CONTROL y te envío por mensaje privado el acceso a FinanzasPro para aplicar este protocolo en tu próximo día de pago 👇\n\n#diadepago #sueldo #finanzaspersonales #presupuesto #ahorro #controldegastos",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "framed",
+          "image": "mateo_14_laptop",
+          "photo_height": 640,
+          "object_position": "center 30%",
+          "kicker": "PROTOCOLO DEL DÍA DE PAGO",
+          "headline": "Las primeras **2 horas** después de cobrar.",
+          "headline_size": 82,
+          "subtitle": "Exactamente qué hacer, en orden, para no improvisar el resto del mes."
+        },
+        {
+          "type": "steps",
+          "badge": "EL PROTOCOLO",
+          "kicker": "GUÁRDALO PARA TU PRÓXIMO DÍA DE PAGO",
+          "headline": "4 pasos. **2 horas.** Todo el mes.",
+          "steps": [
+            {"tag": "0:00–0:15", "title": "Registra tu ingreso neto", "desc": "Lo que realmente llegó a tu cuenta, no el sueldo bruto."},
+            {"tag": "0:15–0:45", "title": "Paga primero lo fijo", "desc": "Alquiler, servicios y cuotas. Lo que no se negocia, sale ya."},
+            {"tag": "0:45–1:15", "title": "Aparta tu ahorro", "desc": "Fondo y metas antes de gastar. Lo que queda al final, no existe."},
+            {"tag": "1:15–2:00", "title": "Divide en 4 semanas", "desc": "Lo que queda se reparte en 4 topes. Así no gastas el mes en 10 días."}
+          ],
+          "hook": "Así se ve con un sueldo real →"
+        },
+        {
+          "type": "bar",
+          "badge": "EN NÚMEROS",
+          "kicker": "EJEMPLO ILUSTRATIVO",
+          "headline": "$1.400 netos, **con destino desde el día 1.**",
+          "headline_size": 64,
+          "total_label": "Ingreso neto",
+          "total_value": "$1.400",
+          "segments": [
+            {"short": "50%", "weight": 50, "label": "Pagos fijos", "desc": "Alquiler, servicios, transporte", "value": "$700"},
+            {"short": "15%", "weight": 15, "label": "Ahorro y fondo", "desc": "Transferido antes de gastar", "value": "$210"},
+            {"short": "10%", "weight": 10, "label": "Extra a deudas", "desc": "Para la deuda que estás atacando", "value": "$140"},
+            {"short": "25%", "weight": 25, "label": "4 topes semanales", "desc": "$87,50 por semana para vivir", "value": "$350"}
+          ],
+          "hook": "Dónde lo haces en minutos →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_ingresos",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Registras tu sueldo y **todo se reparte solo**",
+          "callouts": [
+            {"title": "Ingresos", "desc": "Cada entrada de dinero, con fecha y categoría."},
+            {"title": "Total del mes", "desc": "Se suma solo y pasa a tu Visión General."},
+            {"title": "Vs. mes anterior", "desc": "Ves si este mes entró más o menos."}
+          ],
+          "hook": "Tu próximo día de pago, resuelto →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "mateo_15_recorte",
+          "photo_height": 360,
+          "object_position": "center 18%",
+          "kicker": "TU PRÓXIMO DÍA DE PAGO",
+          "headline": "Cobra con un plan, **no con una esperanza.**",
+          "headline_size": 62,
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "<b>Ingresos</b>, <b>Pagos Fijos</b> y <b>Presupuesto</b> para tus 2 horas",
+            "<b>Alertas</b> antes de cada vencimiento del mes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-030",
+      "folder": "carrossel_14",
+      "theme": "dark",
+      "badge": "SISTEMA",
+      "angulo": "planilha dashboard",
+      "titulo": "Por qué anotar gastos en notas del celular o libretas te hace abandonar a los 10 días",
+      "cta_keyword": "SISTEMA",
+      "copy": "Si empezaste a anotar tus gastos y lo dejaste a los 10 días, no te falta disciplina. Te falta un sistema.\n\nPor qué las notas del celular y las libretas fallan:\n🔹 No suman solas: anotas, pero nunca ves el total por categoría\n🔹 No te avisan: una nota no te dice que ya usaste el 80% del presupuesto de comida\n🔹 No conectan el mes: gastos, pagos fijos y deudas viven en lugares distintos\n\nUn sistema mínimo hace 3 cosas: registras en segundos, ves los totales sin calcular y lo revisas una vez por semana.\n\nAnotar sin ver resultados es esfuerzo sin recompensa. Por eso se abandona.\n\n¿Dónde anotas tus gastos hoy: notas, libreta, app o en ningún lado? Cuéntame.\n\nComenta SISTEMA y te envío por mensaje privado el acceso a FinanzasPro en Google Sheets, el sistema que suma, avisa y conecta todo por ti 👇\n\n#controldegastos #finanzaspersonales #organizacionfinanciera #presupuesto #googlesheets #habitosfinancieros",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "fullbleed",
+          "image": "mateo_01",
+          "object_position": "center 30%",
+          "kicker": "EL PATRÓN DE LOS 10 DÍAS",
+          "headline": "Anotar gastos en notas **te hace abandonar.**",
+          "headline_size": 90,
+          "subtitle": "No te falta disciplina. Te falta un sistema que te devuelva algo."
+        },
+        {
+          "type": "statement",
+          "badge": "EL PATRÓN",
+          "kicker": "TE SUENA ESTO",
+          "mega": "Día 10",
+          "mega_size": 190,
+          "mega_label": "CUANDO LA LIBRETA SE OLVIDA",
+          "headline": "Día 1: motivación. **Día 10: silencio.**",
+          "headline_size": 64,
+          "body": "Anotas con ganas la primera semana. Pero anotar sin ver resultados es esfuerzo sin recompensa.",
+          "hook": "Las 3 razones exactas →"
+        },
+        {
+          "type": "list",
+          "badge": "POR QUÉ FALLA",
+          "kicker": "3 RAZONES, NINGUNA ES TU CULPA",
+          "headline": "Una nota guarda datos. **No te da claridad.**",
+          "headline_size": 64,
+          "big_size": 80,
+          "big_width": 120,
+          "tones": ["", "", ""],
+          "items": [
+            {"big": "01", "title": "No suma sola", "desc": "Anotas, pero nunca ves el total por categoría. El dato existe, la claridad no."},
+            {"big": "02", "title": "No te avisa", "desc": "Una nota no te dice que ya usaste el 80% de tu presupuesto de comida."},
+            {"big": "03", "title": "No conecta el mes", "desc": "Gastos, pagos fijos y deudas viven en lugares distintos."}
+          ],
+          "hook": "Notas vs. sistema, lado a lado →"
+        },
+        {
+          "type": "compare",
+          "badge": "LADO A LADO",
+          "kicker": "MISMOS GASTOS, OTRA HERRAMIENTA",
+          "headline": "La diferencia está en **lo que te devuelve.**",
+          "left": {
+            "label": "Notas o libreta",
+            "result": "Día 10",
+            "result_label": "lo abandonas",
+            "rows": [
+              {"label": "Total por categoría", "value": "Lo calculas tú"},
+              {"label": "Alertas", "value": "Ninguna"},
+              {"label": "Pagos fijos", "value": "De memoria"}
+            ]
+          },
+          "right": {
+            "label": "Sistema",
+            "result": "Mes 12",
+            "result_label": "lo sigues usando",
+            "rows": [
+              {"label": "Total por categoría", "value": "Automático"},
+              {"label": "Alertas", "value": "Antes del límite"},
+              {"label": "Pagos fijos", "value": "Con fecha y aviso"}
+            ]
+          },
+          "hook": "Cómo es un sistema mínimo →"
+        },
+        {
+          "type": "steps",
+          "badge": "SISTEMA MÍNIMO",
+          "kicker": "LO MÍNIMO QUE DEBE HACER",
+          "headline": "3 cosas que **una libreta no puede.**",
+          "steps": [
+            {"tag": "Registrar", "title": "En segundos", "desc": "Fecha, monto y categoría. Desde el celular, en la fila del súper."},
+            {"tag": "Ver", "title": "Sin calcular", "desc": "Totales, porcentajes y saldo se actualizan solos."},
+            {"tag": "Revisar", "title": "1 vez por semana", "desc": "Una sola pantalla para decidir, no 3 apps para adivinar."}
+          ],
+          "hook": "Así se ve en la práctica →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Lo que anotas **vuelve convertido en claridad**",
+          "callouts": [
+            {"title": "Suma sola", "desc": "Gastos por categoría en un gráfico, sin fórmulas."},
+            {"title": "Te avisa", "desc": "Alertas cuando algo vence o se pasa del límite."},
+            {"title": "Conecta todo", "desc": "Ingresos, gastos, deudas y metas en una vista."}
+          ],
+          "hook": "Tu sistema, en 1 comentario →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "cena_celular",
+          "photo_height": 330,
+          "object_position": "center 40%",
+          "kicker": "SUPERA EL DÍA 10",
+          "headline": "Anota menos. **Entiende más.**",
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "Registro de <b>Gastos</b> desde el celular, en segundos",
+            "<b>Visión General</b> y <b>Alertas</b> que trabajan por ti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-031",
+      "folder": "carrossel_15",
+      "theme": "slate",
+      "badge": "CUOTAS",
+      "angulo": "controle de dívidas",
+      "titulo": "La trampa de las cuotas sin intereses: cómo 4 compras 'pequeñas' secuestran tu próximo año",
+      "cta_keyword": "METODO",
+      "copy": "\"Sin intereses\" no significa \"sin costo\". Significa que tu sueldo futuro ya tiene dueño.\n\nEjemplo con 4 compras que parecen pequeñas:\n🔹 Celular: $480 en 12 cuotas de $40\n🔹 Televisor: $600 en 12 cuotas de $50\n🔹 Ropa y viaje: $300 en 10 cuotas de $30\n🔹 Zapatillas: $150 en 6 cuotas de $25\n\nResultado: $145 al mes comprometidos durante medio año y $1.530 de tu próximo año que ya gastaste.\n\nEl método antes de aceptar otra cuota:\n🔹 La suma de tus cuotas no pasa del 10% de tu ingreso neto\n🔹 Nunca más de 2 cuotas abiertas al mismo tiempo\n🔹 Anótala en tus pagos fijos antes de pagar\n\n¿Cuántas cuotas tienes abiertas ahora mismo? Escribe solo el número.\n\nComenta METODO y te envío por mensaje privado el acceso a FinanzasPro para ver todas tus cuotas en Pagos Fijos y Deudas 👇\n\n#cuotassinintereses #tarjetadecredito #deudas #finanzaspersonales #presupuesto #educacionfinanciera",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "fullbleed",
+          "image": "cena_super",
+          "object_position": "center 45%",
+          "kicker": "\"SIN INTERESES\" ≠ SIN COSTO",
+          "headline": "4 compras pequeñas que **secuestran tu año.**",
+          "headline_size": 94,
+          "subtitle": "La trampa de las cuotas sin intereses, con números.",
+          "chip": "Suma las 4 en el <b>slide 3</b> →"
+        },
+        {
+          "type": "list",
+          "badge": "LAS 4 COMPRAS",
+          "kicker": "EJEMPLO ILUSTRATIVO",
+          "headline": "Cada una parece **inofensiva.**",
+          "big_size": 64,
+          "big_width": 190,
+          "tones": ["", "", "ink", "ink"],
+          "items": [
+            {"big": "$50", "title": "Televisor · $600", "desc": "12 cuotas \"sin intereses\""},
+            {"big": "$40", "title": "Celular · $480", "desc": "12 cuotas \"sin intereses\""},
+            {"big": "$30", "title": "Ropa y viaje · $300", "desc": "10 cuotas"},
+            {"big": "$25", "title": "Zapatillas · $150", "desc": "6 cuotas"}
+          ],
+          "hook": "Ahora súmalas →"
+        },
+        {
+          "type": "statement",
+          "badge": "LA SUMA",
+          "kicker": "LO QUE NO VES AL PAGAR",
+          "mega": "$1.530",
+          "mega_size": 200,
+          "mega_label": "DE TU PRÓXIMO AÑO, YA GASTADOS",
+          "headline": "$145 al mes **que ya tienen dueño.**",
+          "headline_size": 66,
+          "body": "Durante 6 meses, antes de cobrar, $145 de tu sueldo ya están comprometidos. Sin una sola compra nueva.",
+          "hook": "Mes a mes, cómo te ata →"
+        },
+        {
+          "type": "bar",
+          "badge": "MES A MES",
+          "kicker": "SUMA DE LAS 4 CUOTAS · EJEMPLO",
+          "headline": "12 meses atado a **decisiones de 1 tarde.**",
+          "headline_size": 62,
+          "total_label": "Total comprometido",
+          "total_value": "$1.530",
+          "segments": [
+            {"short": "Mes 1–6", "weight": 870, "label": "Meses 1 a 6", "desc": "Las 4 cuotas activas", "value": "$145/mes"},
+            {"short": "7–10", "weight": 480, "label": "Meses 7 a 10", "desc": "Terminan las zapatillas", "value": "$120/mes"},
+            {"short": "11–12", "weight": 180, "label": "Meses 11 y 12", "desc": "Quedan celular y televisor", "value": "$90/mes"}
+          ],
+          "footnote": "$145×6 + $120×4 + $90×2 = $1.530. El ancho de cada bloque es lo que pagas en ese tramo.",
+          "hook": "El método antes de aceptar otra cuota →"
+        },
+        {
+          "type": "list",
+          "badge": "EL MÉTODO",
+          "kicker": "ANTES DE DECIR \"EN CUOTAS\"",
+          "headline": "3 reglas que **te devuelven el año.**",
+          "big_size": 80,
+          "big_width": 120,
+          "tones": ["", "", ""],
+          "items": [
+            {"big": "01", "title": "Regla del 10%", "desc": "La suma de todas tus cuotas no pasa del 10% de tu ingreso neto."},
+            {"big": "02", "title": "Máximo 2 abiertas", "desc": "Nunca más de 2 cuotas activas al mismo tiempo."},
+            {"big": "03", "title": "Primero anótala", "desc": "Si no cabe en tus pagos fijos del mes, no cabe en tu vida."}
+          ],
+          "hook": "Ve todas tus cuotas juntas →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "mateo_05",
+          "photo_height": 340,
+          "object_position": "center 28%",
+          "kicker": "RECUPERA TU PRÓXIMO AÑO",
+          "headline": "Todas tus cuotas, **en un solo lugar.**",
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada",
+            "<b>Pagos Fijos</b> con cada cuota, su monto y su fecha",
+            "<b>Deudas</b> para ver cuánto te falta y cuándo terminas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FP-032",
+      "folder": "carrossel_16",
+      "theme": "light",
+      "badge": "SISTEMA REAL",
+      "angulo": "planilha dashboard",
+      "titulo": "De vivir al día a tener claridad total en una sola pantalla: así funciona un sistema real",
+      "cta_keyword": "PLANILLA",
+      "copy": "Vivir al día no es falta de disciplina. Es falta de visibilidad.\n\nCuando tu dinero está repartido entre la app del banco, la tarjeta, una libreta y tu memoria, es imposible decidir bien.\n\nUn sistema real responde 4 preguntas en una sola pantalla:\n🔹 ¿Cuánto me queda este mes?\n🔹 ¿Qué categoría se pasó del límite?\n🔹 ¿Qué pago viene esta semana?\n🔹 ¿Cuánto debo en total y cuándo termino?\n\nCómo empiezas hoy: haces tu copia privada, cargas tus ingresos y pagos fijos, y registras tus gastos desde el celular.\n\n¿Cuál de las 4 preguntas no puedes responder hoy sin abrir varias apps? Cuéntame.\n\nComenta PLANILLA y te envío por mensaje privado el acceso a FinanzasPro en Google Sheets (sin saber fórmulas, en el celular o la computadora) 👇\n\n#planillafinanciera #googlesheets #finanzaspersonales #presupuesto #organizacionfinanciera #controldegastos",
+      "slides": [
+        {
+          "type": "cover",
+          "style": "cutout",
+          "image": "cena_bloques",
+          "photo_width": 620,
+          "photo_right": -60,
+          "kicker": "SISTEMA REAL",
+          "headline": "De vivir al día a **claridad total.**",
+          "headline_size": 96,
+          "stat": "1",
+          "stat_label": "SOLA PANTALLA",
+          "stat_top": 600,
+          "subtitle": "Así funciona un sistema real para tu dinero, paso a paso.",
+          "note": "7 slides · guárdalo"
+        },
+        {
+          "type": "statement",
+          "badge": "EL PROBLEMA",
+          "image": "cena_casal",
+          "image_placement": "top",
+          "photo_height": 500,
+          "object_position": "center 45%",
+          "kicker": "NO ES DISCIPLINA",
+          "headline": "Vivir al día es **falta de visibilidad.**",
+          "body": "Tu dinero vive en la app del banco, la tarjeta, una libreta y tu memoria. Así es imposible decidir bien.",
+          "hook": "Antes vs. después →"
+        },
+        {
+          "type": "compare",
+          "badge": "ANTES / DESPUÉS",
+          "kicker": "EL MISMO SUELDO, OTRA VISTA",
+          "headline": "Lo que cambia **con una sola pantalla.**",
+          "left": {
+            "label": "Viviendo al día",
+            "result": "4 apps",
+            "result_label": "para entender tu mes",
+            "rows": [
+              {"label": "Saldo disponible", "value": "Aproximado"},
+              {"label": "Deuda total", "value": "No la sabes"},
+              {"label": "Fin de mes", "value": "Sorpresa"}
+            ]
+          },
+          "right": {
+            "label": "Con un sistema",
+            "result": "1 vista",
+            "result_label": "con todo conectado",
+            "rows": [
+              {"label": "Saldo disponible", "value": "Exacto, hoy"},
+              {"label": "Deuda total", "value": "Con fecha de salida"},
+              {"label": "Fin de mes", "value": "Planificado"}
+            ]
+          },
+          "hook": "Las 4 preguntas que responde →"
+        },
+        {
+          "type": "list",
+          "badge": "4 PREGUNTAS",
+          "kicker": "UN SISTEMA REAL RESPONDE",
+          "headline": "4 preguntas, **0 apps abiertas.**",
+          "big_size": 80,
+          "big_width": 120,
+          "tones": ["", "", "", ""],
+          "items": [
+            {"big": "01", "title": "¿Cuánto me queda este mes?", "desc": "Saldo real, actualizado cada vez que registras."},
+            {"big": "02", "title": "¿Qué categoría se pasó?", "desc": "Presupuesto vs. gasto real, con alerta."},
+            {"big": "03", "title": "¿Qué pago viene esta semana?", "desc": "Pagos fijos y vencimientos, con fecha."},
+            {"big": "04", "title": "¿Cuánto debo en total?", "desc": "Deuda total y en cuántos meses terminas."}
+          ],
+          "hook": "La pantalla real →"
+        },
+        {
+          "type": "proof",
+          "badge": "PRUEBA REAL",
+          "image": "planilha_vision_geral",
+          "kicker": "VISTA REAL · GOOGLE SHEETS SIN FÓRMULAS",
+          "headline": "Las 4 respuestas, **en esta pantalla**",
+          "callouts": [
+            {"title": "Saldo y gastos", "desc": "Lo que entra, lo que sale y lo que queda."},
+            {"title": "Deuda y pagos", "desc": "Deuda total y pagos pendientes del mes."},
+            {"title": "Metas y 50/30/20", "desc": "Tu avance y tu regla, a la vista."}
+          ],
+          "hook": "Cómo empiezas hoy →"
+        },
+        {
+          "type": "steps",
+          "badge": "CÓMO EMPIEZAS",
+          "kicker": "HOY MISMO, EN 3 PASOS",
+          "headline": "Tu sistema funcionando **antes del domingo.**",
+          "steps": [
+            {"tag": "Paso 1", "title": "Haz tu copia privada", "desc": "\"Hacer una copia\" en tu Google Drive. Solo tú la ves."},
+            {"tag": "Paso 2", "title": "Carga lo fijo", "desc": "Ingresos y pagos fijos una sola vez. El resto se calcula solo."},
+            {"tag": "Paso 3", "title": "Registra desde el celular", "desc": "Cada gasto en segundos. La Visión General se actualiza sola."}
+          ],
+          "hook": "Tu acceso, en 1 comentario →"
+        },
+        {
+          "type": "cta",
+          "badge": "TU ACCESO",
+          "image": "mateo_04",
+          "photo_height": 340,
+          "object_position": "center 22%",
+          "kicker": "CLARIDAD TOTAL, HOY",
+          "headline": "Tu dinero, **en una sola pantalla.**",
+          "kw_hint": "Coméntalo aquí abajo y te escribo por mensaje privado.",
+          "gets": [
+            "<b>Acceso a FinanzasPro</b> en Google Sheets, copia privada en tu cuenta",
+            "Las 10 pestañas: <b>Visión General</b>, Gastos, Presupuesto, Deudas, Metas…",
+            "Sin saber fórmulas, <b>en el celular o la computadora</b>"
+          ]
+        }
+      ]
+    }
+  ]
+}
